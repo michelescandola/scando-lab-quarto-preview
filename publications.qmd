@@ -1,0 +1,30 @@
+---
+title: Publications
+pagetitle: "Publications · Scando-lab"
+description: "Selected publications on Bayesian methods, body cognition, pain and neuropsychology."
+page-id: publications
+page-heading: "Evidence, organised by question."
+page-lead: >-
+  A curated route through publications connected to our current programmes.
+  Use the filters to explore methodological and body-related work.
+listing:
+  id: publications-list
+  contents: content/publications.yml
+  template: templates/publications.ejs.md
+  sort: order
+  field-required: [title, authors, year, label, category, url, order]
+---
+
+::: {.shell}
+:::: {#publications-list}
+::::
+
+:::: {.publication-footer}
+
+This selection is not an exhaustive bibliography. The complete and continuously
+updated publication record is available on Google Scholar.
+
+[Full Scholar profile ↗](https://scholar.google.com/citations?hl=en&user=bZBU7HEAAAAJ&view_op=list_works&sortby=pubdate){.button .secondary target="_blank" rel="noopener noreferrer"}
+
+::::
+:::

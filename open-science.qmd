@@ -1,0 +1,43 @@
+---
+title: Open Science
+pagetitle: "Open Science · Scando-lab"
+description: "Scando-lab's approach to transparency, reproducible analysis and statistical education."
+page-id: open-science
+page-heading: "Rigor is a shared practice."
+page-lead: >-
+  Open science shapes how we formulate questions, document analyses
+  and communicate results.
+---
+
+::: {.shell .open-grid}
+:::: {.prose}
+
+## Open by design
+
+Open science is not an appendix to our research. We support research cultures
+in which methods, uncertainty and limitations are visible—and where reusable
+tools can travel further than a single paper.
+
+Our principles are:
+
+- Transparent analysis plans, code and materials whenever ethically and legally possible.
+- Statistical education that builds understanding, not ritualised software use.
+- Robust workflows that welcome checking, replication and constructive correction.
+
+[Explore methods and resources →](resources.qmd){.button .secondary}
+
+::::
+:::: {.network-card}
+
+<span class="role-label">Current role · Secretary</span>
+
+## Italian Reproducibility Network
+
+Michele Scandola serves as Secretary of the Italian Reproducibility Network,
+a peer-led consortium working to strengthen robust research, reproducibility
+and collective learning across Italian institutions.
+
+[Visit the ITRN ↗](https://www.itrn.org/){target="_blank" rel="noopener noreferrer"}
+
+::::
+:::

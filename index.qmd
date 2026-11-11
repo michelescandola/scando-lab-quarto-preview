@@ -1,0 +1,49 @@
+---
+title: Scando-lab
+pagetitle: "Scando-lab · Methods, minds and changing worlds"
+description: "Scando-lab: Bayesian methods, cognitive science and open research at the University of Verona."
+page-id: home
+---
+
+{{< include includes/home-hero.qmd >}}
+
+{{< include includes/home-perspective.qmd >}}
+
+::: {.home-links}
+:::: {.shell}
+
+<p class="eyebrow">Explore Scando-lab</p>
+
+## Connected questions. Open conversations.
+
+::::: {.resource-grid}
+:::::: {.resource-card}
+
+### Our research
+
+Bayesian models, body cognition, life transitions, eco-emotions and neurodivergence.
+
+[Explore research →](research.qmd){.profile-link}
+
+::::::
+:::::: {.resource-card}
+
+### Our people
+
+Meet the team bringing neuropsychology and quantitative methods together.
+
+[Meet the team →](people.qmd){.profile-link}
+
+::::::
+:::::: {.resource-card}
+
+### Share a question
+
+Connect with us about collaboration, supervision or methodological exchange.
+
+[Contact the lab →](contact.qmd){.profile-link}
+
+::::::
+:::::
+::::
+:::

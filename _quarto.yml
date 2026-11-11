@@ -1,0 +1,79 @@
+# One Quarto source per page. Content lists are ordinary YAML files.
+project:
+  type: website
+  output-dir: _site
+  render:
+    - index.qmd
+    - research.qmd
+    - open-science.qmd
+    - people.qmd
+    - activities.qmd
+    - publications.qmd
+    - resources.qmd
+    - contact.qmd
+  resources:
+    - assets/
+    - imgs/
+    - LICENSE
+    - .nojekyll
+    - "!content/**"
+    - "!templates/**"
+    - "!includes/**"
+    - "!_site/**"
+
+website:
+  title: Scando-lab
+  description: >-
+    Research on Bayesian statistics, body cognition, open science,
+    life transitions, eco-emotions and neurodivergence at the University of Verona.
+  navbar: false
+  search: false
+
+# The shared HTML template reads this list to build the menu on every page.
+site-navigation:
+  - id: research
+    text: Research
+    href: research.html
+  - id: open-science
+    text: Open Science
+    href: open-science.html
+  - id: people
+    text: People
+    href: people.html
+  - id: activities
+    text: Activities
+    href: activities.html
+  - id: publications
+    text: Publications
+    href: publications.html
+  - id: resources
+    text: Resources
+    href: resources.html
+  - id: contact
+    text: Contact
+    href: contact.html
+
+lang: en
+quarto-required: ">=1.6.0"
+from: markdown-smart
+
+format:
+  html:
+    theme: none
+    minimal: true
+    template: templates/page.html
+    title-prefix: ""
+    css:
+      - assets/css/styles.css
+      - assets/css/multipage.css
+    toc: false
+    title-block-style: none
+    anchor-sections: false
+    section-divs: false
+    number-sections: false
+    link-external-icon: false
+    fig-responsive: false
+    html-math-method: plain
+
+execute:
+  enabled: false

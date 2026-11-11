@@ -1,0 +1,31 @@
+---
+title: Activities
+pagetitle: "Activities · Scando-lab"
+description: "Scientific exchange, statistical education and announcements from Scando-lab."
+page-id: activities
+page-heading: "Ideas grow through exchange."
+page-lead: "Scientific exchange, statistical education and collaborative research."
+listing:
+  id: activities-list
+  contents: content/activities.yml
+  template: templates/activities.ejs.md
+  sort: order
+  field-required: [title, description, order, date_label]
+---
+
+::: {.shell}
+:::: {.prose}
+
+## Learning together
+
+Our work connects statistical reasoning with questions in cognitive science
+and neuropsychology. We value methodological exchange, transparent workflows
+and constructive discussion across disciplines.
+
+::::
+
+## Announcements
+
+:::: {#activities-list}
+::::
+:::

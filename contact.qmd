@@ -1,0 +1,43 @@
+---
+title: Contact
+pagetitle: "Contact · Scando-lab"
+description: "Contact Michele Scandola about research collaborations, supervision and methodological exchange."
+page-id: contact
+page-heading: "A question is a good place to start."
+page-lead: >-
+  For research collaborations, supervision enquiries, methodological exchange
+  or information about Scando-lab, get in touch with Michele Scandola.
+---
+
+::: {.shell .contact-layout}
+:::: {.contact-card}
+
+## Michele Scandola
+
+Associate Professor of Neuropsychology and Cognitive Neuroscience
+
+Department of Human Sciences · University of Verona
+
+**Email**  
+[michele.scandola@univr.it](mailto:michele.scandola@univr.it)
+
+**Phone**  
+[+39 045 802 8407](tel:+390458028407)
+
+[Write an email →](mailto:michele.scandola@univr.it){.button}
+
+::::
+:::: {.prose}
+
+## Start a conversation
+
+We welcome questions that connect cognitive science, quantitative methods
+and experiences beyond the laboratory.
+
+To help us direct your enquiry, include a short description of your question
+or project and any relevant context.
+
+[University profile ↗](https://www.dsu.univr.it/?ent=persona&id=7984&lang=eng){.profile-link target="_blank" rel="noopener noreferrer"}
+
+::::
+:::

@@ -1,0 +1,33 @@
+# Add or edit entries here. Keep the indentation consistent; HTML is not needed.
+# The order field controls display order. See CONTRIBUTING.md for examples.
+
+- order: 1
+  title: Statistics and Bayesian inference
+  description: We develop, test and disseminate statistical approaches for cognitive science and
+    neuropsychology. Current work includes Bayesian and frequentist mixed models, complex experimental
+    designs, single-case inference, reliability and reproducible analysis.
+  card_class: large highlight
+- order: 2
+  title: The body as a Bayesian construction
+  description: How do prior expectations and sensory evidence combine to produce body ownership,
+    spatial experience, pain and action? We study body representations as dynamic inferences—continually
+    updated by the brain in health and after neurological change.
+  card_class: medium
+- order: 3
+  title: NEET and life transitions
+  description: Research with young people not in education, employment or training examines how
+    personality, executive functions and cognitive-motivational processes relate to employability,
+    participation and pathways back into opportunity.
+  card_class: third
+- order: 4
+  title: Eco-emotions and action
+  description: We investigate how emotions about environmental change interact with executive
+    functions, decision-making, wellbeing and pro-environmental behaviour—at both individual and
+    collective levels.
+  card_class: third
+- order: 5
+  title: Neurodivergences
+  description: Our emerging programme focuses on fair cognitive assessment and the mechanisms
+    that can obscure neurodivergence, including gender bias. We aim for careful measurement, inclusive
+    research questions and clinically meaningful interpretation.
+  card_class: third

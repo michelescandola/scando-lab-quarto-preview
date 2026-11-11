@@ -1,0 +1,78 @@
+<!-- Hero: edit this section below. -->
+
+```{=html}
+<section class="hero" id="top">
+```
+
+::::::::::: {.shell}
+
+:::::::::: {.hero-grid}
+
+::::::::: {.hero-copy}
+
+```{=html}
+<p class="eyebrow">Research group · University of Verona</p>
+```
+
+# Scando<span class="accent">-lab</span>
+
+```{=html}
+<p class="hero-lead">
+              We study how minds represent bodies, choices and possible futures—using rigorous
+              statistics, Bayesian models and open practices to connect cognitive science with
+              questions that matter beyond the laboratory.
+            </p>
+```
+
+```{=html}
+<div class="button-row">
+              <a class="button" href="research.html">Explore our research <span class="arrow" aria-hidden="true">↓</span></a>
+              <a class="button secondary" href="publications.html">Selected publications</a>
+            </div>
+```
+
+:::::::::
+
+```{=html}
+<div class="hero-visual" aria-hidden="true">
+            <div class="orbit"></div>
+            <div class="orbit two"></div>
+            <div class="visual-core"><span>evidence × uncertainty</span></div>
+            <span class="signal one">body</span>
+            <span class="signal two">society</span>
+            <span class="signal three">methods</span>
+          </div>
+```
+
+::::::::::
+
+:::::::::: {.hero-notes aria-label="Scando-lab at a glance"}
+
+```{=html}
+<div class="hero-note">
+            <strong>Bayesian by design</strong>
+            <span>Models that make assumptions, uncertainty and prior information explicit.</span>
+          </div>
+```
+
+```{=html}
+<div class="hero-note">
+            <strong>Human in focus</strong>
+            <span>Body cognition, neuropsychology, life transitions and environmental emotion.</span>
+          </div>
+```
+
+```{=html}
+<div class="hero-note">
+            <strong>Open in practice</strong>
+            <span>Transparent workflows, reusable methods and research designed to be scrutinised.</span>
+          </div>
+```
+
+::::::::::
+
+:::::::::::
+
+```{=html}
+</section>
+```

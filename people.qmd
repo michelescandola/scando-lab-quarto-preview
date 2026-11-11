@@ -1,0 +1,21 @@
+---
+title: People
+pagetitle: "People · Scando-lab"
+description: "Meet the Scando-lab team led by Michele Scandola at the University of Verona."
+page-id: people
+page-heading: "The team behind the questions."
+page-lead: >-
+  Scando-lab brings together neuropsychology, quantitative methods and emerging
+  research on social and environmental transitions.
+listing:
+  id: people-list
+  contents: content/people.yml
+  template: templates/people.ejs.md
+  sort: order
+  field-required: [title, role, description, order]
+---
+
+::: {.shell}
+:::: {#people-list}
+::::
+:::

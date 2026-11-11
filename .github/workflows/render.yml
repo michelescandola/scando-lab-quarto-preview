@@ -1,0 +1,28 @@
+name: Render and check Quarto
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the contribution
+        uses: actions/checkout@v7
+
+      - name: Install Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: 1.11.9
+
+      - name: Render all pages
+        run: quarto render
+
+      - name: Check links and page structure
+        run: python3 scripts/check_site.py

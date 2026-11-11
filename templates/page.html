@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="$lang$">
+<head>
+  $metadata.html()$
+  <meta name="theme-color" content="#173b3f">
+  <!-- htmldependencies:E3FAD763 -->
+  $for(header-includes)$
+  $header-includes$
+  $endfor$
+  $for(css)$
+  <link rel="stylesheet" href="$css$">
+  $endfor$
+</head>
+<body class="multipage page-$page-id$" data-page="$page-id$">
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header">
+    <div class="shell nav-row">
+      <a class="brand" href="index.html" aria-label="Scando-lab home">
+        <span class="brand-mark" aria-hidden="true"><span>SL</span></span>
+        <span>Scando-lab</span>
+      </a>
+      <button class="menu-button" type="button" aria-expanded="false"
+              aria-controls="primary-navigation" aria-label="Open navigation">
+        <span></span>
+      </button>
+      <nav aria-label="Primary navigation">
+        <ul class="nav-links" id="primary-navigation">
+          $for(site-navigation)$
+          <li><a href="$site-navigation.href$" data-page="$site-navigation.id$">$site-navigation.text$</a></li>
+          $endfor$
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <!-- This hidden block keeps Quarto from relocating the custom page heading. -->
+    <header id="title-block-header" class="quarto-title-block" hidden></header>
+    $if(page-heading)$
+    <div class="page-intro shell">
+      <p class="eyebrow">$title$</p>
+      <h1>$page-heading$</h1>
+      $if(page-lead)$<p class="page-lead">$page-lead$</p>$endif$
+    </div>
+    $endif$
+    <div class="page-body">
+    $body$
+    </div>
+  </main>
+
+  <footer>
+    <div class="shell footer-row">
+      <span>© 2026 Scando-lab · Michele Scandola</span>
+      <a href="contact.html">Research with visible assumptions and open methods.</a>
+    </div>
+  </footer>
+  <script src="assets/js/site.js" defer></script>
+</body>
+</html>

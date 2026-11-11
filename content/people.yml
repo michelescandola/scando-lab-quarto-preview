@@ -1,0 +1,46 @@
+# Add or edit entries here. Keep the indentation consistent; HTML is not needed.
+# The order field controls display order. See CONTRIBUTING.md for examples.
+
+- order: 1
+  title: Michele Scandola
+  role: Principal Investigator · Associate Professor
+  description: Neuropsychologist and quantitative researcher studying body and space representations,
+    statistical methodology, neuropsychological instruments, NEET-related executive functions
+    and gender bias in neurodivergence.
+  image: imgs/2026-michele_scandola.png
+  initials: ''
+  profile_url: https://www.dsu.univr.it/?ent=persona&id=7984&lang=eng
+- order: 2
+  title: Martina Pastorelli
+  role: Ph.D. candidate · Human Sciences
+  description: Martina studies NEET and employability, with particular attention to personality
+    structure and executive functioning, and how these dimensions can inform routes towards participation
+    in the labour market.
+  image: imgs/2026-martina-pastorelli.png
+  initials: ''
+  profile_url: https://www.dsu.univr.it/?ent=persona&id=78034
+- order: 3
+  title: Anna Laura Vlad
+  role: Ph.D. candidate · Human Sciences
+  description: Anna Laura investigates eco-emotions and their relationship with pro-environmental
+    behaviour, executive functions and decision-making, connecting environmental responsibility
+    with individual and collective wellbeing.
+  image: imgs/2026-anna_vlad.png
+  initials: ''
+  profile_url: https://www.dsu.univr.it/?ent=persona&id=90137
+- order: 4
+  title: Riccardo Tosi
+  role: Intern · Student of Psychology and Computer Science
+  description: Riccardo is involved in a project to embody neuro-typical participants in neuro-divegent
+    experiences through virtual-reality based simulations.
+  image: ''
+  initials: RT
+  profile_url: ''
+- order: 5
+  title: Jorge Trevisani
+  role: Intern · Student of Psychology
+  description: Jorge is involved in a project studying the effects of climiate change in emotions
+    and executive functions.
+  image: ''
+  initials: JT
+  profile_url: ''

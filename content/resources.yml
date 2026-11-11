@@ -1,0 +1,25 @@
+# Add or edit entries here. Keep the indentation consistent; HTML is not needed.
+# The order field controls display order. See CONTRIBUTING.md for examples.
+
+- order: 1
+  title: Italian Reproducibility Network
+  kind: Network
+  description: A peer-led network supporting robust research, reproducibility and collective learning
+    across Italian institutions.
+  url: https://www.itrn.org/
+- order: 2
+  title: Bayesian mixed-model methods
+  kind: Preprint
+  description: Complex Random Intercepts in Bayesian Linear Mixed Models for fully crossed experimental
+    designs.
+  url: https://zenodo.org/records/21295776
+- order: 3
+  title: Single-case analysis
+  kind: Preprint
+  description: 'Single case analysis in neuropsychology: an Empirical Bayesian perspective.'
+  url: https://osf.io/preprints/psyarxiv/c78py_v1
+- order: 4
+  title: Full publication record
+  kind: Bibliography
+  description: The complete and continuously updated publication record on Google Scholar.
+  url: https://scholar.google.com/citations?hl=en&user=bZBU7HEAAAAJ&view_op=list_works&sortby=pubdate

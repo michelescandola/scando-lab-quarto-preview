@@ -1,0 +1,22 @@
+---
+title: Research
+pagetitle: "Research · Scando-lab"
+description: "Five connected research themes in statistics, body cognition, life transitions, eco-emotions and neurodivergence."
+page-id: research
+page-heading: "One lab, connected questions."
+page-lead: >-
+  From formal models to lived experience, our programmes examine how cognition
+  is shaped by prior knowledge, bodily signals, executive functions and social
+  or environmental context.
+listing:
+  id: research-list
+  contents: content/research.yml
+  template: templates/research.ejs.md
+  sort: order
+  field-required: [title, description, order, card_class]
+---
+
+::: {.shell}
+:::: {#research-list}
+::::
+:::

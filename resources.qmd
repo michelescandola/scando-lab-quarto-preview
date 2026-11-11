@@ -1,0 +1,20 @@
+---
+title: Resources
+pagetitle: "Resources · Scando-lab"
+description: "Research methods, preprints, bibliography and reproducibility links from Scando-lab."
+page-id: resources
+page-heading: "Methods worth sharing."
+page-lead: >-
+  Research methods, preprints and reproducibility links connected to our work.
+listing:
+  id: resources-list
+  contents: content/resources.yml
+  template: templates/resources.ejs.md
+  sort: order
+  field-required: [title, description, kind, url, order]
+---
+
+::: {.shell}
+:::: {#resources-list}
+::::
+:::

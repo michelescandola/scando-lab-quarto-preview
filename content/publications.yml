@@ -1,0 +1,63 @@
+# Add or edit entries here. Keep the indentation consistent; HTML is not needed.
+# The order field controls display order. See CONTRIBUTING.md for examples.
+
+- order: 1
+  title: Complex Random Intercepts in Bayesian Linear Mixed Models for fully crossed experimental
+    designs
+  authors: M. Scandola & E. Tidoni · Zenodo preprint · Version 1
+  year: 2026
+  label: Methods
+  category: statistics
+  url: https://zenodo.org/records/21295776
+- order: 2
+  title: Differential interference of body- and non-body-related representational conflicts on
+    error and performance monitoring in flanker tasks
+  authors: G. Fusco, M. Scandola and colleagues · Scientific Reports
+  year: 2026
+  label: Body
+  category: body
+  url: https://www.nature.com/articles/s41598-026-35124-1
+- order: 3
+  title: 'How pain and body representations transform each other: A narrative review'
+  authors: M. Beccherle & M. Scandola · Journal of Neuropsychology, 19(S1), 26–41
+  year: 2025
+  label: Pain
+  category: body
+  url: https://bpspsychub.onlinelibrary.wiley.com/doi/pdf/10.1111/jnp.12390
+- order: 4
+  title: Pain and the perception of space in fibromyalgia
+  authors: M. Scandola, M. Beccherle and colleagues · Scientific Reports, 15, 692
+  year: 2025
+  label: Pain
+  category: body
+  url: https://www.nature.com/articles/s41598-024-82711-1
+- order: 5
+  title: Reliability and Feasibility of Linear Mixed Models in Fully Crossed Experimental Designs
+  authors: M. Scandola & E. Tidoni · Advances in Methods and Practices in Psychological Science
+  year: 2024
+  label: Methods
+  category: statistics
+  url: https://journals.sagepub.com/doi/full/10.1177/25152459231214454
+- order: 6
+  title: 'Topographic mapping of the sensorimotor qualities of empathic reactivity: A psychophysiological
+    study in people with spinal cord injuries'
+  authors: M. Scandola and colleagues · Psychophysiology
+  year: 2024
+  label: Embodiment
+  category: body
+  url: https://onlinelibrary.wiley.com/doi/pdf/10.1111/psyp.14547
+- order: 7
+  title: 'Single case analysis in neuropsychology: an Empirical Bayesian perspective'
+  authors: M. Scandola & S. Makhloufi · PsyArXiv preprint, version 1
+  year: 2026
+  label: Methods
+  category: statistics
+  url: https://osf.io/preprints/psyarxiv/c78py_v1
+- order: 8
+  title: 'Bayesian Multilevel Single Case Models using Stan: A new tool to study single cases
+    in neuropsychology'
+  authors: M. Scandola & D. Romano · Neuropsychologia, 156, 107834
+  year: 2021
+  label: Methods
+  category: statistics
+  url: https://www.sciencedirect.com/science/article/pii/S0028393221000853

@@ -1,0 +1,37 @@
+<!-- Perspective: edit this section below. -->
+
+```{=html}
+<section class="manifesto" aria-labelledby="manifesto-title">
+```
+
+::::::::::: {.shell .manifesto-grid}
+
+:::::::::: {}
+
+```{=html}
+<p class="eyebrow">Our perspective</p>
+```
+
+## Better questions need visible assumptions. {#manifesto-title}
+
+::::::::::
+
+:::::::::: {.manifesto-copy}
+
+Scando-lab is led by Michele Scandola, Associate Professor of Neuropsychology and Cognitive
+Neuroscience in the Department of Human Sciences at the University of Verona. Our work
+crosses methodological and disciplinary borders without losing sight of the people
+represented by the data.
+
+We connect statistical reasoning with research on body representations, pain,
+neuropsychological assessment, young people not in education, employment or training,
+eco-emotions and neurodivergence. The common thread is simple: careful measurement, explicit
+uncertainty and knowledge that others can inspect and build upon.
+
+::::::::::
+
+:::::::::::
+
+```{=html}
+</section>
+```
