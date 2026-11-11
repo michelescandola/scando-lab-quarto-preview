@@ -25,11 +25,14 @@ activity or resource.
 1. Open the relevant file and choose the pencil icon.
 2. Edit an existing entry, or copy a complete entry and change its fields.
 3. Give the change a short description and propose it on a new branch.
-4. Open a pull request. The **Render and check Quarto** workflow renders the
+4. Open a pull request. The **Build and deploy Quarto** workflow renders the
    whole website and checks local links and page structure.
 5. Have another contributor review the content before merging.
 
-The workflow checks the source; it does not deploy a public website.
+Pull requests run checks without deploying. After a reviewed change is merged
+into `main`, the same workflow checks the complete website and publishes it
+to GitHub Pages. The result appears under **Actions** and the `github-pages`
+deployment environment.
 
 ## Preview locally
 

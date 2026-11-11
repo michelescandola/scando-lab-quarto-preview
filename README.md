@@ -4,6 +4,8 @@ A contribution-friendly Quarto adaptation of
 [Scando-lab](https://michelescandola.github.io/scando-lab/), retaining the
 original visual identity and research content.
 
+Website: <https://michelescandola.github.io/scando-lab-quarto-preview/>
+
 The website has a homepage and seven separate sections:
 
 | Page | Source |
@@ -62,9 +64,11 @@ network, methods preprints and bibliography already referenced by the source.
 
 ## Checks
 
-The GitHub Actions workflow in `.github/workflows/render.yml` renders the
-site and validates local links, assets, IDs and heading counts on pull
-requests and pushes to `main`.
+The **Build and deploy Quarto** workflow in `.github/workflows/render.yml`
+renders the site and validates local links, assets, IDs and heading counts
+on pull requests and pushes to `main`. After successful checks, pushes to
+`main` automatically publish the rendered site to GitHub Pages. Pull requests
+run the checks without deploying.
 
 To run the same local validation, using Python's standard library:
 
@@ -78,11 +82,19 @@ four entries in either category. Motion preferences are respected.
 
 ## Repository and hosting
 
-The project is ready to place at the root of a GitHub repository. Its workflow
-checks contributions and does not deploy the site. To host it, upload the
-contents of `_site/` to a static host, or follow Quarto's
-[GitHub Pages guide](https://quarto.org/docs/publishing/github-pages.html).
-All page and asset links are relative and support project subdirectories.
+The source is hosted at
+<https://github.com/michelescandola/scando-lab-quarto-preview>.
+GitHub Pages publishes the `_site/` artifact built by the workflow, using the
+`github-pages` deployment environment. Quarto sources and content lists stay
+on `main`; generated HTML does not need to be committed.
+
+To republish without changing content, open the repository's **Actions** tab,
+select **Build and deploy Quarto**, and choose **Run workflow** on `main`.
+The workflow has no deployment step for pull requests.
+
+The public base URL is set in `_quarto.yml` under `website.site-url`. Update
+that value if the repository name or hosting domain changes. Page and asset
+links are relative and support the GitHub Pages project subdirectory.
 
 ## Attribution
 

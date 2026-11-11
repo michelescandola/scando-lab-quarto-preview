@@ -23,6 +23,7 @@ project:
 
 website:
   title: Scando-lab
+  site-url: https://michelescandola.github.io/scando-lab-quarto-preview/
   description: >-
     Research on Bayesian statistics, body cognition, open science,
     life transitions, eco-emotions and neurodivergence at the University of Verona.
