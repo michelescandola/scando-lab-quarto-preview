@@ -56,7 +56,8 @@ link checker and is already available on the GitHub Actions runner.
 ## YAML conventions
 
 Keep the indentation at two spaces and preserve the dash at the start of each
-entry. The numeric `order` field controls display order. Use `>-` for a long
+entry. The numeric `order` field controls display order in lists other than
+publications; publications sort automatically by their `published` field. Use `>-` for a long
 paragraph. Descriptions in the content lists are plain text; page bodies use
 Markdown. Quote a short value when it contains a colon.
 
@@ -65,18 +66,61 @@ Markdown. Quote a short value when it contains a colon.
 Append an entry to `content/publications.yml`:
 
 ```yaml
-- order: 9
-  title: "Replace with the publication title"
-  authors: "Author names · Journal or preprint server"
-  year: 2026
-  label: Methods
-  category: statistics
+- title: "Replace with the publication title"
+  authors: "A. Author, M. Scandola"
+  venue: "Journal or preprint server"
+  published: "2026-07-13"
+  publication_type: "Journal article"
+  topics: [methods, neuropsychology]
   url: "https://example.org/replace-with-the-real-publication-link"
+  source_url: "https://example.org/replace-with-the-bibliographic-record"
+  date_source_url: "https://example.org/replace-with-the-publication-date-source"
 ```
 
-Choose `statistics` or `body` for `category`. These values match the filters.
-If you introduce another category, also add its filter button in
-`templates/publications.ejs.md`. Replace the example URL before submitting.
+Use one or more of these topic IDs. A work appears once in the complete list
+and is available through every assigned topic:
+
+| Topic ID | Displayed topic |
+| --- | --- |
+| `methods` | Open Science, Statistics, and Methods |
+| `pain-body` | Pain and body representation |
+| `action` | Action representation |
+| `space` | Space representation |
+| `society` | Society |
+| `neuropsychology` | Neuropsychology |
+
+The topic labels and filter order are defined in `publications.qmd` under
+`listing.template-params.topics`. No JavaScript edits are needed to assign topics.
+
+Use a quoted ISO date for `published`: `"2026-07-13"`, `"2026-07"`, or `"2026"`.
+Prefer the first online publication date, not a later print issue or the date
+the record was deposited in a repository. Keep only the precision the source
+actually supports. Within the same year, year-only records follow dated works;
+within a month, month-only records follow works with a known day. Exact date
+ties are ordered alphabetically by title. New entries need no `order` number
+and can be appended anywhere in the YAML file.
+
+Keep the publication type explicit: for example, `Journal article`, `Preprint`,
+`Conference poster`, `Conference abstract`, `Conference contribution`, `Book chapter`,
+`Software` or `Correction`. Supply the title, authors and venue separately.
+For unusually large author lists, give the first authors and `et al.`, indicate
+M. Scandola's participation when needed, and link to the complete author record.
+Optional `doi` and `note` fields can record an identifier or a short factual note.
+Replace all example URLs before submitting. The public page links `url` and
+`source_url`; `date_source_url` preserves the evidence for future maintenance.
+
+The 12 November 2026 update contains 102 records from the University of Verona
+[IRIS author profile](https://iris.univr.it/cris/rp/rp08237?type=all), two methods
+preprints retained from the original page, and three additional distinct DOI
+works verified in [ORCID](https://orcid.org/0000-0003-0853-8975). Publisher,
+Crossref and PubMed metadata refine dates where available. IRIS's generic
+1 January dates are treated as year-only unless a publication date was
+independently verified. Google Scholar blocked access during this update,
+so this is not claimed to be a complete export of that profile. Older ORCID
+conference records without verified author lists have not been added.
+Preprint versions of listed journal articles are not added as separate works;
+conference presentations and corrections remain explicitly labelled records.
+Topic assignments are editorial and can be revised by the lab.
 
 ### Add a person
 

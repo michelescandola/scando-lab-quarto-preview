@@ -1,63 +1,1288 @@
-# Add or edit entries here. Keep the indentation consistent; HTML is not needed.
-# The order field controls display order. See CONTRIBUTING.md for examples.
-
-- order: 1
-  title: Complex Random Intercepts in Bayesian Linear Mixed Models for fully crossed experimental
-    designs
-  authors: M. Scandola & E. Tidoni · Zenodo preprint · Version 1
-  year: 2026
-  label: Methods
-  category: statistics
-  url: https://zenodo.org/records/21295776
-- order: 2
-  title: Differential interference of body- and non-body-related representational conflicts on
-    error and performance monitoring in flanker tasks
-  authors: G. Fusco, M. Scandola and colleagues · Scientific Reports
-  year: 2026
-  label: Body
-  category: body
-  url: https://www.nature.com/articles/s41598-026-35124-1
-- order: 3
-  title: 'How pain and body representations transform each other: A narrative review'
-  authors: M. Beccherle & M. Scandola · Journal of Neuropsychology, 19(S1), 26–41
-  year: 2025
-  label: Pain
-  category: body
-  url: https://bpspsychub.onlinelibrary.wiley.com/doi/pdf/10.1111/jnp.12390
-- order: 4
-  title: Pain and the perception of space in fibromyalgia
-  authors: M. Scandola, M. Beccherle and colleagues · Scientific Reports, 15, 692
-  year: 2025
-  label: Pain
-  category: body
-  url: https://www.nature.com/articles/s41598-024-82711-1
-- order: 5
-  title: Reliability and Feasibility of Linear Mixed Models in Fully Crossed Experimental Designs
-  authors: M. Scandola & E. Tidoni · Advances in Methods and Practices in Psychological Science
-  year: 2024
-  label: Methods
-  category: statistics
-  url: https://journals.sagepub.com/doi/full/10.1177/25152459231214454
-- order: 6
-  title: 'Topographic mapping of the sensorimotor qualities of empathic reactivity: A psychophysiological
-    study in people with spinal cord injuries'
-  authors: M. Scandola and colleagues · Psychophysiology
-  year: 2024
-  label: Embodiment
-  category: body
-  url: https://onlinelibrary.wiley.com/doi/pdf/10.1111/psyp.14547
-- order: 7
-  title: 'Single case analysis in neuropsychology: an Empirical Bayesian perspective'
-  authors: M. Scandola & S. Makhloufi · PsyArXiv preprint, version 1
-  year: 2026
-  label: Methods
-  category: statistics
+# Checked 2026-11-12 against IRIS, ORCID, publisher and preprint metadata.
+# Dates are first online publication where available, otherwise known month/year.
+# Quote partial dates: published: "2026", "2026-07" or "2026-07-13".
+# The template sorts automatically, newest first; no numeric order is needed.
+# Topics: methods, pain-body, action, space, society, neuropsychology.
+# source_url identifies the work; date_source_url records the date evidence.
+# See CONTRIBUTING.md for the topic labels, date rules and scope of this update.
+- title: 'On the relationship between pain and body ownership: A systematic review of rubber hand illusion
+    studies'
+  authors: M. Lezcano, F. Santoni, M. Scandola
+  venue: Neuropsychologia
+  published: '2026-10-28'
+  publication_type: Journal article
+  topics:
+  - pain-body
+  url: https://doi.org/10.1016/j.neuropsychologia.2026.109621
+  source_url: https://iris.univr.it/handle/11562/1207688
+  date_source_url: https://pubmed.ncbi.nlm.nih.gov/42951062/
+  doi: 10.1016/j.neuropsychologia.2026.109621
+- title: 'Awareness and use of open research practices: an international survey of researchers across disciplines'
+  authors: C. R. Pennington, E. Norris, M. Skubera et al. (including M. Scandola)
+  venue: Royal Society Open Science
+  published: '2026-08-19'
+  publication_type: Journal article
+  topics:
+  - methods
+  url: https://doi.org/10.1098/rsos.260462
+  source_url: https://iris.univr.it/handle/11562/1201627
+  date_source_url: https://doi.org/10.1098/rsos.260462
+  doi: 10.1098/rsos.260462
+- title: 'Single case analysis in neuropsychology: an Empirical Bayesian perspective'
+  authors: M. Scandola, S. Makhloufi
+  venue: PsyArXiv · Version 1
+  published: '2026-07-13'
+  publication_type: Preprint
+  topics:
+  - methods
+  - neuropsychology
   url: https://osf.io/preprints/psyarxiv/c78py_v1
-- order: 8
-  title: 'Bayesian Multilevel Single Case Models using Stan: A new tool to study single cases
-    in neuropsychology'
-  authors: M. Scandola & D. Romano · Neuropsychologia, 156, 107834
-  year: 2021
-  label: Methods
-  category: statistics
-  url: https://www.sciencedirect.com/science/article/pii/S0028393221000853
+  source_url: https://osf.io/preprints/psyarxiv/c78py_v1
+  date_source_url: https://api.osf.io/v2/preprints/c78py/
+- title: Complex Random Intercepts in Bayesian Linear Mixed Models for fully crossed experimental designs
+  authors: M. Scandola, E. Tidoni
+  venue: Zenodo · Version 1
+  published: '2026-07-10'
+  publication_type: Preprint
+  topics:
+  - methods
+  url: https://zenodo.org/records/21295776
+  source_url: https://zenodo.org/records/21295776
+  date_source_url: https://zenodo.org/records/21295776
+- title: 'Effects of Psychological Distance on Mental Abstraction: A Registered Report of Four Tests of Construal-Level
+    Theory'
+  authors: S. Calderon, E. Mac Giolla, K. Ask et al. (including M. Scandola)
+  venue: Advances in Methods and Practices in Psychological Science
+  published: '2026-04-16'
+  publication_type: Journal article
+  topics:
+  - methods
+  - society
+  url: https://doi.org/10.1177/25152459251401177
+  source_url: https://iris.univr.it/handle/11562/1189382
+  date_source_url: https://doi.org/10.1177/25152459251401177
+  doi: 10.1177/25152459251401177
+- title: Internalizing and externalizing symptoms association with insomnia, SRMDs, and parasomnias in an ADHD
+    sample and moderating effects of parental characteristics
+  authors: M. G. Melegari, M. Scandola, M. Giallonardo, M. Vezzoli
+  venue: SLEEP MEDICINE
+  published: '2026-04-01'
+  publication_type: Journal article
+  topics:
+  - neuropsychology
+  url: https://doi.org/10.1016/j.sleep.2026.108947
+  source_url: https://iris.univr.it/handle/11562/1189387
+  date_source_url: https://pubmed.ncbi.nlm.nih.gov/42000584/
+  doi: 10.1016/j.sleep.2026.108947
+- title: Investigating the analytical robustness of the social and behavioural sciences
+  authors: B. Aczel, B. Szaszi, H. T. Clelland et al. (including M. Scandola)
+  venue: Nature
+  published: '2026-04-01'
+  publication_type: Journal article
+  topics:
+  - methods
+  - society
+  url: https://doi.org/10.1038/s41586-025-09844-9
+  source_url: https://iris.univr.it/handle/11562/1188227
+  date_source_url: https://pubmed.ncbi.nlm.nih.gov/41922703/
+  doi: 10.1038/s41586-025-09844-9
+- title: An updated italian normative data for a short version of the stroop colour word test
+  authors: S. Luzzi, V. Cherubini, P. Rosettani, S. Baldinelli, C. Fiori, M. Silvestrini, M. Scandola
+  venue: Neurological Sciences
+  published: '2026-03-25'
+  publication_type: Journal article
+  topics:
+  - methods
+  - neuropsychology
+  url: https://doi.org/10.1007/s10072-026-08918-4
+  source_url: https://iris.univr.it/handle/11562/1188467
+  date_source_url: https://pubmed.ncbi.nlm.nih.gov/41876895/
+  doi: 10.1007/s10072-026-08918-4
+- title: 'The effect of age on the architecture of psychological and cognitive dimensions: a network perspective'
+  authors: S. Vicentin, U. Granziol, D. Romano, M. Scandola, G. Cona
+  venue: European Journal of Ageing
+  published: '2026-02-02'
+  publication_type: Journal article
+  topics:
+  - methods
+  - neuropsychology
+  url: https://doi.org/10.1007/s10433-025-00903-8
+  source_url: https://iris.univr.it/handle/11562/1187328
+  date_source_url: https://pubmed.ncbi.nlm.nih.gov/41627568/
+  doi: 10.1007/s10433-025-00903-8
+- title: Differential interference of body- and non-body-related representational conflicts on error and performance
+    monitoring in flanker tasks
+  authors: G. Fusco, M. Scandola, M. Spitaleri, S. M. Aglioti
+  venue: Scientific Reports
+  published: '2026-01-08'
+  publication_type: Journal article
+  topics:
+  - pain-body
+  - action
+  url: https://doi.org/10.1038/s41598-026-35124-1
+  source_url: https://iris.univr.it/handle/11562/1179408
+  date_source_url: https://pubmed.ncbi.nlm.nih.gov/41507332/
+  doi: 10.1038/s41598-026-35124-1
+- title: 'Exploring Motor and Social Contributions to Peripersonal Space: A Pilot VR Study'
+  authors: M. Scandola, E. Tidoni
+  venue: Book of Abstracts
+  published: '2026'
+  publication_type: Conference poster
+  topics:
+  - space
+  - society
+  url: https://iris.univr.it/handle/11562/1204554
+  source_url: https://iris.univr.it/handle/11562/1204554
+  date_source_url: https://iris.univr.it/handle/11562/1204554
+- title: 'Implicit Error Monitoring and Perceived Eco-Anxiety: The Relationship Between Environmental Dimension
+    and Personal Variables'
+  authors: A. L. Vlad, G. Berardo, M. Scandola
+  venue: /
+  published: '2026'
+  publication_type: Conference poster
+  topics:
+  - society
+  url: https://iris.univr.it/handle/11562/1188367
+  source_url: https://iris.univr.it/handle/11562/1188367
+  date_source_url: https://iris.univr.it/handle/11562/1188367
+- title: 'Implicit error monitoring: he relationship between environmental dimensions and personal variables'
+  authors: A. L. Vlad, G. Berardo, M. Scandola
+  venue: .
+  published: '2026'
+  publication_type: Conference contribution
+  topics:
+  - society
+  url: https://iris.univr.it/handle/11562/1204567
+  source_url: https://iris.univr.it/handle/11562/1204567
+  date_source_url: https://iris.univr.it/handle/11562/1204567
+- title: 'Neurodivergencies in the workplace: a PRISMA systematic review of policy effectiveness and employee
+    well-being'
+  authors: A. Mancini, S. Rubini, E. Veglianti, M. Scandola, A. Ceschi
+  venue: PERSONNEL REVIEW
+  published: '2026'
+  publication_type: Journal article
+  topics:
+  - society
+  - neuropsychology
+  url: https://iris.univr.it/handle/11562/1208269
+  source_url: https://iris.univr.it/handle/11562/1208269
+  date_source_url: https://iris.univr.it/handle/11562/1208269
+- title: 'TALIA Pilot: verso algoritmi AI di classificazione del burnout tramite vocal biomarkers'
+  authors: C. Bassi, F. Marinaro, M. Scandola, R. Sartori, A. M. Meneghini, Andreaceschi
+  venue: Libro degli abstract
+  published: '2026'
+  publication_type: Conference contribution
+  topics:
+  - methods
+  - society
+  url: https://iris.univr.it/handle/11562/1202427
+  source_url: https://iris.univr.it/handle/11562/1202427
+  date_source_url: https://iris.univr.it/handle/11562/1202427
+- title: The Role of Executive Functioning in Young Adults Not in Education, Employment, or Training (NEET)
+  authors: M. Pastorelli, A. L. Vlad, M. Esposito, A. Ceschi, R. Sartori, M. Scandola
+  venue: 44° European Workshop on Cognitive Neuropsychology - An interdisciplinary approach
+  published: '2026'
+  publication_type: Conference poster
+  topics:
+  - society
+  - neuropsychology
+  url: https://iris.univr.it/handle/11562/1181056
+  source_url: https://iris.univr.it/handle/11562/1181056
+  date_source_url: https://iris.univr.it/handle/11562/1181056
+- title: 'WHEN AUTISM IS FEMALE: AN INVESTIGATION INTO GENDER BIASES IN THE CLINICAL ASSESSMENT OF AUTISM SPECTRUM
+    DISORDER'
+  authors: F. Corsi, M. Scandola, A. Perbellini, L. V. Raneri, G. Tenci
+  venue: ICERI Proceedings
+  published: 2025-11
+  publication_type: Conference contribution
+  topics:
+  - society
+  - neuropsychology
+  url: https://doi.org/10.21125/iceri.2025.0615
+  source_url: https://iris.univr.it/handle/11562/1176469
+  date_source_url: https://doi.org/10.21125/iceri.2025.0615
+  doi: 10.21125/iceri.2025.0615
+- title: 'How artificial intelligence is shaping neuropsychology: A focus on cognitive assessment of neurodegenerative
+    disorders'
+  authors: M. Scandola, M. Esposito, R. Guidotti, D. Romano
+  venue: Journal of Neuropsychology
+  published: '2025-08-09'
+  publication_type: Journal article
+  topics:
+  - methods
+  - neuropsychology
+  url: https://doi.org/10.1111/jnp.70009
+  source_url: https://iris.univr.it/handle/11562/1168767
+  date_source_url: https://doi.org/10.1111/jnp.70009
+  doi: 10.1111/jnp.70009
+- title: Comorbidity aggregation models in children and adolescents with ADHD and direct and moderator effects
+    of familial clinical history and psychosocial factors
+  authors: M. G. Melegari, R. Donfrancesco, R. Sacco, R. M. Lacerenza, M. Giallonardo, M. Scandola
+  venue: Research in Developmental Disabilities
+  published: '2025-07-08'
+  publication_type: Journal article
+  topics:
+  - neuropsychology
+  url: https://doi.org/10.1016/j.ridd.2025.105073
+  source_url: https://iris.univr.it/handle/11562/1166667
+  date_source_url: https://pubmed.ncbi.nlm.nih.gov/40633434/
+  doi: 10.1016/j.ridd.2025.105073
+- title: 'The need to adapt neuropsychological tests to population changes. An update of the Italian normative
+    data for three tests: Rey-Osterrieth Complex Figure, Raven Coloured Progressive Matrices and COWAT -FAS'
+  authors: M. Gasparini, M. Scandola, E. Salati, R. Margiotta, S. Barbetti, S. Diana, S. Amato, G. Gambina,
+    G. Bruno, N. Vanacore, V. Moro
+  venue: Journal of Clinical and Experimental Neuropsychology
+  published: '2025-06-13'
+  publication_type: Journal article
+  topics:
+  - methods
+  - neuropsychology
+  url: https://doi.org/10.1080/13803395.2025.2519295
+  source_url: https://iris.univr.it/handle/11562/1166807
+  date_source_url: https://pubmed.ncbi.nlm.nih.gov/40514777/
+  doi: 10.1080/13803395.2025.2519295
+- title: 'Enhancing the quality and reproducibility of research: Preferred Evaluation of Cognitive and Neuropsychological
+    Studies - The PECANS statement for human studies'
+  authors: C. Costa, R. Pezzetta, E. Toffalini et al. (including M. Scandola)
+  venue: Behavior Research Methods
+  published: '2025-05-30'
+  publication_type: Journal article
+  topics:
+  - methods
+  - neuropsychology
+  url: https://doi.org/10.3758/s13428-025-02705-3
+  source_url: https://iris.univr.it/handle/11562/1166669
+  date_source_url: https://pubmed.ncbi.nlm.nih.gov/40447861/
+  doi: 10.3758/s13428-025-02705-3
+- title: (Un)intentionality bias in action observation revisited
+  authors: E. Tidoni, A. Merritt, E. Adeyemi, M. Scandola, J. Tree, K. Riggs, D. George
+  venue: Cognition
+  published: '2025-05-20'
+  publication_type: Journal article
+  topics:
+  - action
+  url: https://doi.org/10.1016/j.cognition.2025.106191
+  source_url: https://iris.univr.it/handle/11562/1163867
+  date_source_url: https://pubmed.ncbi.nlm.nih.gov/40398330/
+  doi: 10.1016/j.cognition.2025.106191
+- title: Pain and the perception of space in fibromyalgia
+  authors: M. Scandola, M. Beccherle, E. Polati, G. Pietroni, E. Rossato, V. Schweiger, V. Moro
+  venue: SCIENTIFIC REPORTS
+  published: '2025-01-03'
+  publication_type: Journal article
+  topics:
+  - pain-body
+  - space
+  url: https://doi.org/10.1038/s41598-024-82711-1
+  source_url: https://iris.univr.it/handle/11562/1149127
+  date_source_url: https://pubmed.ncbi.nlm.nih.gov/39753627/
+  doi: 10.1038/s41598-024-82711-1
+- title: A New Taxonomy of Flexibility Through Network Analysis
+  authors: S. Rubini, M. Scandola, A. Ceschi, R. Sartori
+  venue: .
+  published: '2025'
+  publication_type: Conference abstract
+  topics:
+  - methods
+  - society
+  url: https://iris.univr.it/handle/11562/1163455
+  source_url: https://iris.univr.it/handle/11562/1163455
+  date_source_url: https://iris.univr.it/handle/11562/1163455
+- title: 'ADHD e disoccupazione: il peso delle comorbidità e dei fattori protettivi - una revisione narrativa'
+  authors: M. Pastorelli, A. Mancini, M. Scandola, A. Ceschi, R. Sartori
+  venue: 'Il futuro che già c''è: il cambiamento organizzativo tra identità professionale, benessere, inclusione
+    e intelligenza artificiale.'
+  published: '2025'
+  publication_type: Conference contribution
+  topics:
+  - society
+  - neuropsychology
+  url: https://iris.univr.it/handle/11562/1171389
+  source_url: https://iris.univr.it/handle/11562/1171389
+  date_source_url: https://iris.univr.it/handle/11562/1171389
+- title: 'Investigating the effects of social and occupational isolation on personality structure: a focus
+    on NEET young adults'
+  authors: M. Scandola, A. Ceschi, R. Sartori, M. Pastorelli, A. L. Vlad, M. Esposito
+  venue: 'Investigating the effects of social and occupational isolation on personality structure: a focus
+    on NEET young adults'
+  published: '2025'
+  publication_type: Conference poster
+  topics:
+  - society
+  - neuropsychology
+  url: https://iris.univr.it/handle/11562/1162187
+  source_url: https://iris.univr.it/handle/11562/1162187
+  date_source_url: https://iris.univr.it/handle/11562/1162187
+- title: 'Mappare il panorama della flessibilità: una network taxonomy delle Flexible Work Arrangements (FWAs)'
+  authors: S. Rubini, A. Ceschi, M. Scandola, R. Sartori
+  venue: 'Il futuro che già c''è: il cambiamento organizzativo tra identità professionale, benessere, inclusione
+    e intelligenza artificiale'
+  published: '2025'
+  publication_type: Conference contribution
+  topics:
+  - methods
+  - society
+  url: https://iris.univr.it/handle/11562/1171367
+  source_url: https://iris.univr.it/handle/11562/1171367
+  date_source_url: https://iris.univr.it/handle/11562/1171367
+- title: 'Ruminazione e percezione del carico di lavoro nel setting lavorativo ibrido: un’analisi comparativa
+    tra giovani e adulti senior'
+  authors: A. Ceschi, S. Rubini, M. Scandola, R. Sartori
+  venue: XXI Congresso Nazionale della Sezione di Psicologia per le Organizzazioni
+  published: '2025'
+  publication_type: Conference contribution
+  topics:
+  - society
+  url: https://iris.univr.it/handle/11562/1171390
+  source_url: https://iris.univr.it/handle/11562/1171390
+  date_source_url: https://iris.univr.it/handle/11562/1171390
+- title: Are humanoid robots perceived as mindless mannequins?
+  authors: E. Tidoni, E. S. Cross, R. Ramsey, M. Scandola
+  venue: 'Computers in Human Behavior: Artificial Humans'
+  published: '2024-11-15'
+  publication_type: Journal article
+  topics:
+  - action
+  - society
+  url: https://doi.org/10.1016/j.chbah.2024.100105
+  source_url: https://iris.univr.it/handle/11562/1145268
+  date_source_url: https://eprints.gla.ac.uk/341808/
+  doi: 10.1016/j.chbah.2024.100105
+- title: 'How pain and body representations transform each other: A narrative review'
+  authors: M. Beccherle, M. Scandola
+  venue: Journal of Neuropsychology
+  published: '2024-09-05'
+  publication_type: Journal article
+  topics:
+  - pain-body
+  url: https://doi.org/10.1111/jnp.12390
+  source_url: https://iris.univr.it/handle/11562/1157988
+  date_source_url: https://doi.org/10.1111/jnp.12390
+  doi: 10.1111/jnp.12390
+- title: A preliminary study of white matter disconnections underlying deficits in praxis in left hemisphere
+    stroke patients
+  authors: E. Rounis, E. Thompson, M. Scandola, V. Nozais, G. Pizzamiglio, M. T. De Schotten, V. Pacella
+  venue: Brain Structure and Function
+  published: '2024-07-17'
+  publication_type: Journal article
+  topics:
+  - action
+  - neuropsychology
+  url: https://doi.org/10.1007/s00429-024-02814-3
+  source_url: https://iris.univr.it/handle/11562/1131826
+  date_source_url: https://pubmed.ncbi.nlm.nih.gov/39014269/
+  doi: 10.1007/s00429-024-02814-3
+- title: '“Sensing” the future: From Kant to the brain as a predictor'
+  authors: Rocco Gaudenzi, Michele Scandola, Fabio D'Asaro, Valentina Moro, Massimiliano Badino
+  venue: Authorea
+  published: '2024-06-27'
+  publication_type: Preprint
+  topics:
+  - methods
+  - action
+  url: https://doi.org/10.22541/au.171945748.89099414/v1
+  source_url: https://orcid.org/0000-0003-0853-8975
+  date_source_url: https://pub.orcid.org/v3.0/0000-0003-0853-8975/work/162432285
+  doi: 10.22541/au.171945748.89099414/v1
+- title: 'Similarities and dissimilarities between two memory tests - RAVLT vs. Rey''s 15 words: reply to "Various
+    faces of the Rey Auditory Verbal Learning Test (RAVLT)" by Ricci and colleagues'
+  authors: M. Gasparini, M. Scandola, S. Amato, E. Salati, E. Facci, V. Gobbetto, G. Bruno, N. Vanacore, G.
+    Gambina, V. Moro
+  venue: NEUROLOGICAL SCIENCES
+  published: '2024-05-29'
+  publication_type: Journal article
+  topics:
+  - methods
+  - neuropsychology
+  url: https://doi.org/10.1007/s10072-024-07624-3
+  source_url: https://iris.univr.it/handle/11562/1131531
+  date_source_url: https://pubmed.ncbi.nlm.nih.gov/38809449/
+  doi: 10.1007/s10072-024-07624-3
+- title: 'Topographic mapping of the sensorimotor qualities of empathic reactivity: A psychophysiological study
+    in people with spinal cord injuries'
+  authors: M. Scandola, M. Beccherle, R. Togni, G. Caffini, F. Ferrari, S. M. Aglioti, V. Moro
+  venue: Psychophysiology
+  published: '2024-02-19'
+  publication_type: Journal article
+  topics:
+  - pain-body
+  - society
+  url: https://doi.org/10.1111/psyp.14547
+  source_url: https://iris.univr.it/handle/11562/1131528
+  date_source_url: https://pubmed.ncbi.nlm.nih.gov/38372443/
+  doi: 10.1111/psyp.14547
+- title: Reliability and Feasibility of Linear Mixed Models in Fully Crossed Experimental Designs
+  authors: M. Scandola, E. Tidoni
+  venue: ADVANCES IN METHODS AND PRACTICES IN PSYCHOLOGICAL SCIENCE
+  published: '2024-02-09'
+  publication_type: Journal article
+  topics:
+  - methods
+  url: https://doi.org/10.1177/25152459231214454
+  source_url: https://iris.univr.it/handle/11562/1119150
+  date_source_url: https://journals.sagepub.com/doi/full/10.1177/25152459231214454
+  doi: 10.1177/25152459231214454
+- title: 'Normative data beyond the total scores: a process score analysis of the Rey’s 15 word test in healthy
+    aging and Alzheimer’s Disease'
+  authors: M. Gasparini, M. Scandola, S. Amato, E. Salati, E. Facci, V. Gobbetto, G. Bruno, N. Vanacore, G.
+    Gambina, V. Moro
+  venue: Neurological Sciences
+  published: '2024-01-22'
+  publication_type: Journal article
+  topics:
+  - methods
+  - neuropsychology
+  url: https://doi.org/10.1007/s10072-024-07330-0
+  source_url: https://iris.univr.it/handle/11562/1117881
+  date_source_url: https://pubmed.ncbi.nlm.nih.gov/38253743/
+  doi: 10.1007/s10072-024-07330-0
+- title: A network analysis of organizational flexibility taxonomies
+  authors: S. Rubini, M. Scandola, A. Mancini, C. Wubbels, T. Tokat, A. Ceschi, R. Sartori
+  venue: The Future of Workplace Innovation
+  published: '2024'
+  publication_type: Conference contribution
+  topics:
+  - society
+  url: https://iris.univr.it/handle/11562/1140906
+  source_url: https://iris.univr.it/handle/11562/1140906
+  date_source_url: https://iris.univr.it/handle/11562/1140906
+- title: L’EFFETTO DEL RITIRO SOCIALE E LAVORATIVO SULLA DIMENSIONE DELLA STRUTTURA DI PERSONALITA’ IN GIOVANI
+    ADULTI
+  authors: M. Scandola, M. Pastorelli, M. Esposito, A. L. Vlad
+  venue: L’effetto del ritiro sociale e lavorativo sulla dimensione della struttura di personalità in giovani
+    adulti.
+  published: '2024'
+  publication_type: Conference contribution
+  topics:
+  - society
+  url: https://iris.univr.it/handle/11562/1158253
+  source_url: https://iris.univr.it/handle/11562/1158253
+  date_source_url: https://iris.univr.it/handle/11562/1158253
+- title: 'Examining the role of self-reported somatosensory sensations in body (dis)ownership: A scoping review
+    and empirical study of patients with a disturbed sense of limb ownership'
+  authors: V. Moro, M. Scandola, V. Gobbetto, S. Bertagnoli, M. Beccherle, S. Besharati, S. Ponzo, A. Fotopoulou,
+    P. M. Jenkinson
+  venue: Neuropsychologia
+  published: '2023-12-21'
+  publication_type: Journal article
+  topics:
+  - pain-body
+  - neuropsychology
+  url: https://doi.org/10.1016/j.neuropsychologia.2023.108776
+  source_url: https://iris.univr.it/handle/11562/1117888
+  date_source_url: https://pubmed.ncbi.nlm.nih.gov/38141962/
+  doi: 10.1016/j.neuropsychologia.2023.108776
+- title: 'Modulating preferences during intertemporal choices through exogenous midfrontal transcranial alternating
+    current stimulation: A registered report'
+  authors: G. Fusco, M. Scandola, H. Lin, M. Inzlicht, S. M. Aglioti
+  venue: Cortex
+  published: '2023-11-14'
+  publication_type: Journal article
+  topics:
+  - methods
+  url: https://doi.org/10.1016/j.cortex.2023.09.019
+  source_url: https://iris.univr.it/handle/11562/1116590
+  date_source_url: https://pubmed.ncbi.nlm.nih.gov/38113613/
+  doi: 10.1016/j.cortex.2023.09.019
+- title: 'Massive body-brain disconnection consequent to spinal cord injuries drives profound changes in higher-order
+    cognitive and emotional functions: A PRISMA scoping review'
+  authors: V. Moro, M. Beccherle, M. Scandola, S. M. Aglioti
+  venue: Neuroscience &amp; Biobehavioral Reviews
+  published: '2023-09-20'
+  publication_type: Journal article
+  topics:
+  - pain-body
+  - neuropsychology
+  url: https://doi.org/10.1016/j.neubiorev.2023.105395
+  source_url: https://iris.univr.it/handle/11562/1115949
+  date_source_url: https://pubmed.ncbi.nlm.nih.gov/37734697/
+  doi: 10.1016/j.neubiorev.2023.105395
+- title: Body Form Modulates the Prediction of Human and Artificial Behaviour from Gaze Observation
+  authors: M. Scandola, E. Cross, N. Caruana, E. Tidoni
+  venue: INTERNATIONAL JOURNAL OF SOCIAL ROBOTICS
+  published: 2023-08
+  publication_type: Journal article
+  topics:
+  - action
+  - society
+  url: https://doi.org/10.1007/s12369-022-00962-2
+  source_url: https://iris.univr.it/handle/11562/1088606
+  date_source_url: https://orcid.org/0000-0003-0853-8975
+  doi: 10.1007/s12369-022-00962-2
+- title: A fronto-insular-parietal network for the sense of body ownership
+  authors: V. Moro, V. Pacella, M. Scandola, S. Besharati, E. Rossato, P. M. Jenkinson, A. Fotopoulou
+  venue: CEREBRAL CORTEX
+  published: '2023'
+  publication_type: Journal article
+  topics:
+  - pain-body
+  - neuropsychology
+  url: https://doi.org/10.1093/cercor/bhac081
+  source_url: https://iris.univr.it/handle/11562/1059215
+  date_source_url: https://iris.univr.it/handle/11562/1059215
+  doi: 10.1093/cercor/bhac081
+- title: Temporal judgments of actions following unilateral brain damage
+  authors: V. Pacella, M. Scandola, M. Bà, N. Smania, M. Beccherle, E. Rossato, D. Volpe, V. Moro
+  venue: Scientific Reports
+  published: '2022-12-15'
+  publication_type: Journal article
+  topics:
+  - action
+  - neuropsychology
+  url: https://doi.org/10.1038/s41598-022-26070-9
+  source_url: https://iris.univr.it/handle/11562/1080746
+  date_source_url: https://pubmed.ncbi.nlm.nih.gov/36522442/
+  doi: 10.1038/s41598-022-26070-9
+- title: Cognitive flexibility assessment with a new Reversal learning task paradigm compared with the Wisconsin
+    card sorting test exploring the moderating effect of gender and stress
+  authors: A. Monni, M. Scandola, S. Hélie, L. F. Scalas
+  venue: PSYCHOLOGICAL RESEARCH
+  published: '2022-11-11'
+  publication_type: Journal article
+  topics:
+  - methods
+  - neuropsychology
+  url: https://doi.org/10.1007/s00426-022-01763-y
+  source_url: https://iris.univr.it/handle/11562/1078309
+  date_source_url: https://pubmed.ncbi.nlm.nih.gov/36369387/
+  doi: 10.1007/s00426-022-01763-y
+- title: 'The ''healthy side'' of anosognosia for hemiplegia: Increased sense of agency for the unimpaired
+    limb or motor compensation?'
+  authors: G. Cocchini, M. Scandola, V. Gobbetto, M. C. Cioffi, A. Bartolo, J. Moore, V. Moro
+  venue: Neuropsychologia
+  published: '2022-11-10'
+  publication_type: Journal article
+  topics:
+  - action
+  - neuropsychology
+  url: https://doi.org/10.1016/j.neuropsychologia.2022.108421
+  source_url: https://iris.univr.it/handle/11562/1078287
+  date_source_url: https://pubmed.ncbi.nlm.nih.gov/36370826/
+  doi: 10.1016/j.neuropsychologia.2022.108421
+- title: 'Electrophysiological correlates of action monitoring in brain-damaged patients: A systematic review'
+  authors: M. Pyasik, M. Scandola, V. Moro
+  venue: Neuropsychologia
+  published: '2022-07-13'
+  publication_type: Journal article
+  topics:
+  - action
+  - neuropsychology
+  url: https://doi.org/10.1016/j.neuropsychologia.2022.108333
+  source_url: https://iris.univr.it/handle/11562/1078312
+  date_source_url: https://pubmed.ncbi.nlm.nih.gov/35842019/
+  doi: 10.1016/j.neuropsychologia.2022.108333
+- title: What the study of spinal cord injured patients can tell us about the significance of the body in cognition
+  authors: V. Moro, M. Scandola, S. M. Aglioti
+  venue: Psychonomic Bulletin &amp; Review
+  published: '2022-06-13'
+  publication_type: Journal article
+  topics:
+  - pain-body
+  - neuropsychology
+  url: https://doi.org/10.3758/s13423-022-02129-6
+  source_url: https://iris.univr.it/handle/11562/1068166
+  date_source_url: https://doi.org/10.3758/s13423-022-02129-6
+  doi: 10.3758/s13423-022-02129-6
+- title: Disconnections in personal neglect
+  authors: S. Bertagnoli, V. Pacella, E. Rossato, P. M. Jenkinson, A. Fotopoulou, M. Scandola, V. Moro
+  venue: Brain Structure and Function
+  published: '2022-06-07'
+  publication_type: Journal article
+  topics:
+  - pain-body
+  - neuropsychology
+  url: https://doi.org/10.1007/s00429-022-02511-z
+  source_url: https://iris.univr.it/handle/11562/1067507
+  date_source_url: https://pubmed.ncbi.nlm.nih.gov/35670845/
+  doi: 10.1007/s00429-022-02511-z
+- title: Human but not robotic gaze facilitates action prediction
+  authors: E. Tidoni, H. Holle, M. Scandola, I. Schindler, L. Hill, E. S. Cross
+  venue: iScience
+  published: 2022-06
+  publication_type: Journal article
+  topics:
+  - action
+  - society
+  url: https://doi.org/10.1016/j.isci.2022.104462
+  source_url: https://iris.univr.it/handle/11562/1067526
+  date_source_url: https://doi.org/10.1016/j.isci.2022.104462
+  doi: 10.1016/j.isci.2022.104462
+- title: 'Peripersonal Space from a multisensory perspective: the distinct effect of the visual and tactile
+    components of Visuo-Tactile stimuli'
+  authors: M. Beccherle, S. Facchetti, F. Villani, M. Zanini, M. Scandola
+  venue: Experimental Brain Research
+  published: '2022-02-18'
+  publication_type: Journal article
+  topics:
+  - pain-body
+  - space
+  url: https://doi.org/10.1007/s00221-022-06324-8
+  source_url: https://iris.univr.it/handle/11562/1058095
+  date_source_url: https://pubmed.ncbi.nlm.nih.gov/35178603/
+  doi: 10.1007/s00221-022-06324-8
+- title: Bodily Illusions and Motor Imagery in Fibromyalgia
+  authors: M. Scandola, G. Pietroni, G. Landuzzi, E. Polati, V. Schweiger, V. Moro
+  venue: Frontiers in Human Neuroscience
+  published: '2022-01-20'
+  publication_type: Journal article
+  topics:
+  - pain-body
+  - action
+  url: https://doi.org/10.3389/fnhum.2021.798912
+  source_url: https://iris.univr.it/handle/11562/1057916
+  date_source_url: https://pubmed.ncbi.nlm.nih.gov/35126075/
+  doi: 10.3389/fnhum.2021.798912
+- title: Body, action, and space representations in people affected by spinal cord injuries
+  authors: M. Scandola
+  venue: Diagnosis and Treatment of Spinal Cord Injury
+  published: '2022'
+  publication_type: Book chapter
+  topics:
+  - pain-body
+  - action
+  - space
+  url: https://doi.org/10.1016/b978-0-12-822498-4.00003-8
+  source_url: https://iris.univr.it/handle/11562/1067510
+  date_source_url: https://doi.org/10.1016/b978-0-12-822498-4.00003-8
+  doi: 10.1016/b978-0-12-822498-4.00003-8
+- title: 'Gesture errors in left and right hemisphere damaged patients: A behavioural and anatomical study'
+  authors: M. Scandola, V. Gobbetto, S. Bertagnoli, C. Bulgarelli, L. Canzano, S. M. Aglioti, V. Moro
+  venue: Neuropsychologia
+  published: '2021-09-22'
+  publication_type: Journal article
+  topics:
+  - action
+  - neuropsychology
+  url: https://doi.org/10.1016/j.neuropsychologia.2021.108027
+  source_url: https://iris.univr.it/handle/11562/1058255
+  date_source_url: https://pubmed.ncbi.nlm.nih.gov/34560143/
+  doi: 10.1016/j.neuropsychologia.2021.108027
+- title: Cognitive Training Improves Disconnected Limbs’ Mental Representation and Peripersonal Space after
+    Spinal Cord Injury
+  authors: V. Moro, M. Corbella, S. Ionta, F. Ferrari, M. Scandola
+  venue: International Journal of Environmental Research and Public Health
+  published: '2021-09-12'
+  publication_type: Journal article
+  topics:
+  - pain-body
+  - space
+  - neuropsychology
+  url: https://doi.org/10.3390/ijerph18189589
+  source_url: https://iris.univr.it/handle/11562/1048780
+  date_source_url: https://doi.org/10.3390/ijerph18189589
+  doi: 10.3390/ijerph18189589
+- title: 'The Role of White Matter Disconnection in the Symptoms Relating to the Anarchic Hand Syndrome: A
+    Single Case Study'
+  authors: V. Pacella, G. K. Ricciardi, S. Bonadiman, E. Verzini, F. Faraoni, M. Scandola, V. Moro
+  venue: Brain Sciences
+  published: '2021-05-14'
+  publication_type: Journal article
+  topics:
+  - action
+  - neuropsychology
+  url: https://doi.org/10.3390/brainsci11050632
+  source_url: https://iris.univr.it/handle/11562/1043464
+  date_source_url: https://doi.org/10.3390/brainsci11050632
+  doi: 10.3390/brainsci11050632
+- title: Bayesian Multilevel Single Case Models using 'Stan'. A new tool to study single cases in Neuropsychology
+  authors: M. Scandola, D. Romano
+  venue: NEUROPSYCHOLOGIA
+  published: '2021-03-24'
+  publication_type: Journal article
+  topics:
+  - methods
+  - neuropsychology
+  url: https://doi.org/10.1016/j.neuropsychologia.2021.107834
+  source_url: https://iris.univr.it/handle/11562/1041219
+  date_source_url: https://pubmed.ncbi.nlm.nih.gov/33771539/
+  doi: 10.1016/j.neuropsychologia.2021.107834
+- title: The impact of multisensory integration and perceptual load in virtual reality settings on performance,
+    workload and presence
+  authors: M. Marucci, G. Di Flumeri, G. Borghini, N. Sciaraffa, M. Scandola, E. F. Pavone, F. Babiloni, V.
+    Betti, P. Aricò
+  venue: Scientific Reports
+  published: '2021-03-01'
+  publication_type: Journal article
+  topics:
+  - methods
+  url: https://doi.org/10.1038/s41598-021-84196-8
+  source_url: https://iris.univr.it/handle/11562/1038139
+  date_source_url: https://doi.org/10.1038/s41598-021-84196-8
+  doi: 10.1038/s41598-021-84196-8
+- title: 'The Motor Unawareness Assessment (MUNA): a new Tool for the Assessment of Anosognosia for Hemiplegia'
+  authors: V. Moro, S. Besharati, M. Scandola, S. Bertagnoli, V. Gobbetto, S. Ponzo, C. Bulgarelli, A. Fotopoulou,
+    P. M. Jenkinson
+  venue: Journal of Clinical and Experimental Neuropsychology
+  published: '2021-02-15'
+  publication_type: Journal article
+  topics:
+  - methods
+  - neuropsychology
+  url: https://doi.org/10.1080/13803395.2021.1876842
+  source_url: https://iris.univr.it/handle/11562/1036602
+  date_source_url: https://doi.org/10.1080/13803395.2021.1876842
+  doi: 10.1080/13803395.2021.1876842
+- title: 'Body illusions and misperception in fibromyalgia: how chronic pain impacts on body representation
+    and imagery of actions'
+  authors: M. Scandola, C. Lonardi, G. Pietroni, V. Schweiger, V. Moro
+  venue: CLINICAL AND EXPERIMENTAL RHEUMATOLOGY
+  published: '2021'
+  publication_type: Journal abstract
+  topics:
+  - pain-body
+  - action
+  url: https://iris.univr.it/handle/11562/1045263
+  source_url: https://iris.univr.it/handle/11562/1045263
+  date_source_url: https://iris.univr.it/handle/11562/1045263
+- title: 'Una città in carrozzina: fragilità e risorse per la mobilità delle persone con disabilità motoria.'
+  authors: V. Moro, M. Beccherle, E. Facci, M. Scandola
+  venue: Fragilità contemporanee. Fenomenologie della violenza e della vulnerabilità
+  published: '2021'
+  publication_type: Book chapter
+  topics:
+  - space
+  - society
+  url: https://iris.univr.it/handle/11562/1057792
+  source_url: https://iris.univr.it/handle/11562/1057792
+  date_source_url: https://iris.univr.it/handle/11562/1057792
+- title: Role of LCF scale as an outcome prognostic index in patients with traumatic brain injury
+  authors: E. Rossato, E. Verzini, M. Scandola, F. Ferrari, S. Bonadiman
+  venue: Neurological Sciences
+  published: '2020-10-29'
+  publication_type: Journal article
+  topics:
+  - neuropsychology
+  url: https://doi.org/10.1007/s10072-020-04852-1
+  source_url: https://iris.univr.it/handle/11562/1034681
+  date_source_url: https://pubmed.ncbi.nlm.nih.gov/33123923/
+  doi: 10.1007/s10072-020-04852-1
+- title: 'Anosognosia for theory of mind deficits: A single case study and a review of the literature'
+  authors: V. Pacella, M. Scandola, M. Beccherle, C. Bulgarelli, R. Avesani, G. Carbognin, G. Agostini, M.
+    Thiebaut De Schotten, V. Moro
+  venue: Neuropsychologia
+  published: '2020-10-13'
+  publication_type: Journal article
+  topics:
+  - society
+  - neuropsychology
+  url: https://doi.org/10.1016/j.neuropsychologia.2020.107641
+  source_url: https://iris.univr.it/handle/11562/1034682
+  date_source_url: https://pubmed.ncbi.nlm.nih.gov/33058921/
+  doi: 10.1016/j.neuropsychologia.2020.107641
+- title: Visuo-motor and interoceptive influences on peripersonal space representation following spinal cord
+    injury
+  authors: M. Scandola, S. M. Aglioti, G. Lazzeri, R. Avesani, S. Ionta, V. Moro
+  venue: Scientific Reports
+  published: '2020-03-20'
+  publication_type: Journal article
+  topics:
+  - pain-body
+  - space
+  url: https://doi.org/10.1038/s41598-020-62080-1
+  source_url: https://iris.univr.it/handle/11562/1014239
+  date_source_url: https://pubmed.ncbi.nlm.nih.gov/32198431/
+  doi: 10.1038/s41598-020-62080-1
+- title: Anosognosia for limb and bucco-facial apraxia as inferred from the recognition of gestural errors
+  authors: M. Scandola, L. Canzano, R. Avesani, M. Leder, S. Bertagnoli, V. Gobbetto, S. M. Aglioti, V. Moro
+  venue: Journal of Neuropsychology
+  published: '2020-02-21'
+  publication_type: Journal article
+  topics:
+  - action
+  - neuropsychology
+  url: https://doi.org/10.1111/jnp.12203
+  source_url: https://iris.univr.it/handle/11562/1012613
+  date_source_url: https://pubmed.ncbi.nlm.nih.gov/32080980/
+  doi: 10.1111/jnp.12203
+- title: 'Correction to: Comprehension of written texts for the assessment of clinical competence and decision
+    making in people with mild to moderate Alzheimer disease'
+  authors: V. Moro, V. Valbusa, N. Corsi, A. Bonazzi, M. T. Condoleo, E. Broggio, M. Scandola, G. Gambina
+  venue: Neurological Sciences
+  published: '2020-01-16'
+  publication_type: Correction
+  topics:
+  - neuropsychology
+  url: https://doi.org/10.1007/s10072-020-04255-2
+  source_url: https://iris.univr.it/handle/11562/1016272
+  date_source_url: https://doi.org/10.1007/s10072-020-04255-2
+  doi: 10.1007/s10072-020-04255-2
+- title: Comprehension of written texts for the assessment of clinical competence and decision making in people
+    with mild to moderate Alzheimer disease
+  authors: V. Moro, V. Valbusa, N. Corsi, A. Bonazzi, M. T. Condoleo, E. Broggio, M. Scandola, G. Gambina
+  venue: Neurological Sciences
+  published: '2020-01-03'
+  publication_type: Journal article
+  topics:
+  - neuropsychology
+  url: https://doi.org/10.1007/s10072-019-04228-0
+  source_url: https://iris.univr.it/handle/11562/1009272
+  date_source_url: https://pubmed.ncbi.nlm.nih.gov/31901122/
+  doi: 10.1007/s10072-019-04228-0
+- title: 'bmscstan: Bayesian Multilevel Single Case Models using ''Stan'''
+  authors: M. Scandola
+  venue: University of Verona research record
+  published: '2020'
+  publication_type: Software
+  topics:
+  - methods
+  url: https://iris.univr.it/handle/11562/1026143
+  source_url: https://iris.univr.it/handle/11562/1026143
+  date_source_url: https://iris.univr.it/handle/11562/1026143
+- title: 'Recovery from tactile agnosia: a single case study'
+  authors: D. D’Imperio, R. Avesani, E. Rossato, S. Aganetto, M. Scandola, V. Moro
+  venue: Neurocase
+  published: '2019-11-22'
+  publication_type: Journal article
+  topics:
+  - neuropsychology
+  url: https://doi.org/10.1080/13554794.2019.1694951
+  source_url: https://iris.univr.it/handle/11562/1004761
+  date_source_url: https://doi.org/10.1080/13554794.2019.1694951
+  doi: 10.1080/13554794.2019.1694951
+- title: Anosognosia for hemiplegia as a tripartite disconnection syndrome
+  authors: V. Pacella, C. Foulon, P. M. Jenkinson, M. Scandola, S. Bertagnoli, R. Avesani, A. Fotopoulou, V.
+    Moro, M. Thiebaut De Schotten
+  venue: ELIFE
+  published: '2019-08-06'
+  publication_type: Journal article
+  topics:
+  - neuropsychology
+  url: https://doi.org/10.7554/elife.46075
+  source_url: https://iris.univr.it/handle/11562/999587
+  date_source_url: https://pubmed.ncbi.nlm.nih.gov/31383259/
+  doi: 10.7554/elife.46075
+- title: Embodying their own wheelchair modifies extrapersonal space perception in people with spinal cord
+    injury
+  authors: M. Scandola, R. Togni, G. Tieri, R. Avesani, M. Brambilla, S. M. Aglioti, V. Moro
+  venue: Experimental Brain Research
+  published: '2019-08-02'
+  publication_type: Journal article
+  topics:
+  - pain-body
+  - space
+  url: https://doi.org/10.1007/s00221-019-05618-8
+  source_url: https://iris.univr.it/handle/11562/999588
+  date_source_url: https://pubmed.ncbi.nlm.nih.gov/31375863/
+  doi: 10.1007/s00221-019-05618-8
+- title: Anticipation of wheelchair and rollerblade actions in spinal cord injured people, rollerbladers, and
+    physiotherapists
+  authors: M. Scandola, S. M. Aglioti, R. Avesani, G. Bertagnoni, A. Marangoni, V. Moro
+  venue: PLOS ONE
+  published: '2019-03-15'
+  publication_type: Journal article
+  topics:
+  - action
+  url: https://doi.org/10.1371/journal.pone.0213838
+  source_url: https://iris.univr.it/handle/11562/996740
+  date_source_url: https://pubmed.ncbi.nlm.nih.gov/30875399/
+  doi: 10.1371/journal.pone.0213838
+- title: Neurocognitive benefits of physiotherapy for spinal cord injury
+  authors: M. Scandola, L. Dodoni, G. Lazzeri, C. A. Arcangeli, R. Avesani, V. Moro, S. Ionta
+  venue: JOURNAL OF NEUROTRAUMA
+  published: '2019-01-29'
+  publication_type: Journal article
+  topics:
+  - neuropsychology
+  url: https://doi.org/10.1089/neu.2018.6123
+  source_url: https://iris.univr.it/handle/11562/989778
+  date_source_url: https://pubmed.ncbi.nlm.nih.gov/30526335/
+  doi: 10.1089/neu.2018.6123
+- title: 'Bayesian Multilevel Single Case model (BMSC): a new approach to single case statistical analysis
+    that allows to test the null and the alternative hypotheses'
+  authors: M. Scandola, D. Romano
+  venue: 'Rovereto Workshop on Concepts, Actions, and Objects: Functional and Neural Perspectives 2019'
+  published: '2019'
+  publication_type: Conference poster
+  topics:
+  - methods
+  - neuropsychology
+  url: https://iris.univr.it/handle/11562/996741
+  source_url: https://iris.univr.it/handle/11562/996741
+  date_source_url: https://iris.univr.it/handle/11562/996741
+- title: 'The modularity of peripersonal space representations: the influence of the vision and tactile sensation
+    on different body parts'
+  authors: S. Facchetti, G. Agostini, M. Beccherle, M. Scandola
+  venue: 'Rovereto Workshop on Concepts, Actions, and Objects: Functional and Neural Perspectives 2019'
+  published: '2019'
+  publication_type: Conference poster
+  topics:
+  - pain-body
+  - space
+  url: https://iris.univr.it/handle/11562/996742
+  source_url: https://iris.univr.it/handle/11562/996742
+  date_source_url: https://iris.univr.it/handle/11562/996742
+- title: Midfrontal theta transcranial alternating current stimulation modulates behavioural adjustment after
+    error execution
+  authors: G. Fusco, M. Scandola, M. Feurra, E. F. Pavone, S. Rossi, S. M. Aglioti
+  venue: EUROPEAN JOURNAL OF NEUROSCIENCE
+  published: '2018-10-26'
+  publication_type: Journal article
+  topics:
+  - action
+  - neuropsychology
+  url: https://doi.org/10.1111/ejn.14174
+  source_url: https://iris.univr.it/handle/11562/988190
+  date_source_url: https://pubmed.ncbi.nlm.nih.gov/30269394/
+  doi: 10.1111/ejn.14174
+- title: The role of psychological flexibility in cancer pain
+  authors: G. Deledda, M. Giansante, S. Poli, E. Geccherle, G. Fantoni, M. Scandola, R. Magarotto, S. Gori
+  venue: Journal of Psychosomatic Research
+  published: 2018-06
+  publication_type: Conference abstract
+  topics:
+  - pain-body
+  url: https://doi.org/10.1016/j.jpsychores.2018.03.044
+  source_url: https://iris.univr.it/handle/11562/996754
+  date_source_url: https://doi.org/10.1016/j.jpsychores.2018.03.044
+  doi: 10.1016/j.jpsychores.2018.03.044
+- title: 'Bayesian Multilevel Single Case model (BSMC): un nuovo approccio all''analisi statistia dei casi
+    singoli'
+  authors: M. Scandola, D. Romano
+  venue: Libro degli Abstract 2018
+  published: '2018'
+  publication_type: Conference poster
+  topics:
+  - methods
+  - neuropsychology
+  url: https://iris.univr.it/handle/11562/989768
+  source_url: https://iris.univr.it/handle/11562/989768
+  date_source_url: https://iris.univr.it/handle/11562/989768
+- title: Epidemiological and clinical characteristics of 492 patients in a vegetative state in 29 Italian rehabilitation
+    units. What about outcome?
+  authors: R. Avesani, F. Dambruoso, M. Scandola, R. Formisano, Antonio De Tanti, S. Ferro, N. Smania, L. Roncari,
+    E. Rossato
+  venue: FUNCTIONAL NEUROLOGY
+  published: '2018'
+  publication_type: Journal article
+  topics:
+  - neuropsychology
+  url: https://doi.org/10.11138/fneur/2018.33.2.097
+  source_url: https://iris.univr.it/handle/11562/988191
+  date_source_url: https://iris.univr.it/handle/11562/988191
+  doi: 10.11138/fneur/2018.33.2.097
+- title: 'Moving in space in a wheelchair: the embodiment of one’s own wheelchair and its effects on navigational
+    space representation in people with spinal cord injury.'
+  authors: M. Scandola, V. Moro
+  venue: 'MeeTo 2018: from moving bodies to interactive minds'
+  published: '2018'
+  publication_type: Conference poster
+  topics:
+  - pain-body
+  - space
+  url: https://iris.univr.it/handle/11562/989775
+  source_url: https://iris.univr.it/handle/11562/989775
+  date_source_url: https://iris.univr.it/handle/11562/989775
+- title: 'On the relation between body and movement space representation: an experimental investigation on
+    spinal cord injured people'
+  authors: M. Scandola, R. Togni, M. Brambilla, R. Avesani, V. Moro
+  venue: Spatial Cognition conference 2018
+  published: '2018'
+  publication_type: Conference poster
+  topics:
+  - pain-body
+  - action
+  - space
+  url: https://iris.univr.it/handle/11562/989774
+  source_url: https://iris.univr.it/handle/11562/989774
+  date_source_url: https://iris.univr.it/handle/11562/989774
+- title: 'Visual appearance of a virtual upper limb modulates the temperature of the real hand: a thermal imaging
+    study in Immersive Virtual Reality'
+  authors: G. Tieri, A. Gioia, M. Scandola, E. F. Pavone, S. M. Aglioti
+  venue: European Journal of Neuroscience
+  published: '2017-03-14'
+  publication_type: Journal article
+  topics:
+  - pain-body
+  url: https://doi.org/10.1111/ejn.13545
+  source_url: https://iris.univr.it/handle/11562/1019686
+  date_source_url: https://pubmed.ncbi.nlm.nih.gov/28222235/
+  doi: 10.1111/ejn.13545
+- title: Corporeal illusions in chronic spinal cord injuries
+  authors: M. Scandola, S. M. Aglioti, R. Avesani, G. Bertagnoni, A. Marangoni, V. Moro
+  venue: Consciousness and Cognition
+  published: '2017-03-08'
+  publication_type: Journal article
+  topics:
+  - pain-body
+  url: https://doi.org/10.1016/j.concog.2017.01.010
+  source_url: https://iris.univr.it/handle/11562/960227
+  date_source_url: https://pubmed.ncbi.nlm.nih.gov/28222382/
+  doi: 10.1016/j.concog.2017.01.010
+- title: Visual and cross-modal cues increase the identification of overlapping visual stimuli in Balint's
+    syndrome
+  authors: D. D'Imperio, M. Scandola, V. Gobbetto, C. Bulgarelli, M. Salgarello, R. Avesani, V. Moro
+  venue: Journal of Clinical and Experimental Neuropsychology
+  published: '2017-01-12'
+  publication_type: Journal article
+  topics:
+  - space
+  - neuropsychology
+  url: https://doi.org/10.1080/13803395.2016.1266307
+  source_url: https://iris.univr.it/handle/11562/960226
+  date_source_url: https://pubmed.ncbi.nlm.nih.gov/28078966/
+  doi: 10.1080/13803395.2016.1266307
+- title: 'Self-Grounded Vision: Hand Ownership Modulates Visual Location through Cortical β and γ Oscillations'
+  authors: N. Faivre, J. Dönz, M. Scandola, H. Dhanis, J. Bello Ruiz, F. Bernasconi, R. Salomon, O. Blanke
+  venue: The Journal of Neuroscience
+  published: '2017-01-04'
+  publication_type: Journal article
+  topics:
+  - pain-body
+  - space
+  url: https://doi.org/10.1523/jneurosci.0563-16.2016
+  source_url: https://iris.univr.it/handle/11562/960248
+  date_source_url: https://pubmed.ncbi.nlm.nih.gov/28053026/
+  doi: 10.1523/jneurosci.0563-16.2016
+- title: 'Explorative surgery for acute scrotal pain: The importance of patient age, side affected, time to
+    surgery and surgeon'
+  authors: A. Fabiani, M. Calabrese, A. Filosa, F. Fioretti, V. Maurelli, M. Scandola, S. Noventa, F. Tombolini,
+    F. Catanzariti, L. Servi, G. Mammana
+  venue: Archivio Italiano di Urologia e Andrologia
+  published: '2016-10-05'
+  publication_type: Journal article
+  topics:
+  - pain-body
+  url: https://doi.org/10.4081/aiua.2016.3.189
+  source_url: https://iris.univr.it/handle/11562/960251
+  date_source_url: https://pubmed.ncbi.nlm.nih.gov/27711092/
+  doi: 10.4081/aiua.2016.3.189
+- title: Apparent Biological Motion in First and Third Person Perspective
+  authors: E. Tidoni, M. Scandola, V. Orvalho, M. Candidi
+  venue: i-Perception
+  published: '2016-09-21'
+  publication_type: Journal article
+  topics:
+  - action
+  url: https://doi.org/10.1177/2041669516669156
+  source_url: https://iris.univr.it/handle/11562/960246
+  date_source_url: https://doi.org/10.1177/2041669516669156
+  doi: 10.1177/2041669516669156
+- title: Spinal cord lesions shrink peripersonal space around the feet, passive mobilization of paraplegic
+    limbs restores it
+  authors: M. Scandola, S. M. Aglioti, C. Bonente, R. Avesani, V. Moro
+  venue: Scientific Reports
+  published: '2016-04-06'
+  publication_type: Journal article
+  topics:
+  - pain-body
+  - space
+  url: https://doi.org/10.1038/srep24126
+  source_url: https://iris.univr.it/handle/11562/940837
+  date_source_url: https://pubmed.ncbi.nlm.nih.gov/27049439/
+  doi: 10.1038/srep24126
+- title: 'The Representation of Objects in Apraxia: From Action Execution to Error Awareness'
+  authors: L. Canzano, M. Scandola, V. Gobbetto, G. Moretto, D. D'Imperio, V. Moro
+  venue: FRONTIERS IN HUMAN NEUROSCIENCE
+  published: '2016-02-10'
+  publication_type: Journal article
+  topics:
+  - action
+  - neuropsychology
+  url: https://doi.org/10.3389/fnhum.2016.00039
+  source_url: https://iris.univr.it/handle/11562/940838
+  date_source_url: https://pubmed.ncbi.nlm.nih.gov/26903843/
+  doi: 10.3389/fnhum.2016.00039
+- title: Motor imagery in spinal cord injured people is modulated by somatotopic coding, perspective taking,
+    and post-lesional chronic pain
+  authors: M. Scandola, S. M. Aglioti, P. Pozeg, R. Avesani, V. Moro
+  venue: Journal of Neuropsychology
+  published: '2016-01-22'
+  publication_type: Journal article
+  topics:
+  - pain-body
+  - action
+  url: https://doi.org/10.1111/jnp.12098
+  source_url: https://iris.univr.it/handle/11562/960650
+  date_source_url: https://pubmed.ncbi.nlm.nih.gov/26800319/
+  doi: 10.1111/jnp.12098
+- title: 'Influence of warmth and competence on the promotion of safe in-group selection: Stereotype content
+    model and social categorization of faces'
+  authors: G. Ponsi, M. S. Panasiti, M. Scandola, S. M. Aglioti
+  venue: Quarterly Journal of Experimental Psychology
+  published: '2015-10-27'
+  publication_type: Journal article
+  topics:
+  - society
+  url: https://doi.org/10.1080/17470218.2015.1084339
+  source_url: https://iris.univr.it/handle/11562/960249
+  date_source_url: https://pubmed.ncbi.nlm.nih.gov/26288181/
+  doi: 10.1080/17470218.2015.1084339
+- title: 'Contextual bottom-up and implicit top-down modulation of anarchic hand syndrome: A single-case report
+    and a review of the literature'
+  authors: V. Moro, S. Pernigo, M. Scandola, M. Mainente, R. Avesani, S. M. Aglioti
+  venue: Neuropsychologia
+  published: '2015-10-09'
+  publication_type: Journal article
+  topics:
+  - action
+  - neuropsychology
+  url: https://doi.org/10.1016/j.neuropsychologia.2015.10.005
+  source_url: https://iris.univr.it/handle/11562/929615
+  date_source_url: https://pubmed.ncbi.nlm.nih.gov/26455805/
+  doi: 10.1016/j.neuropsychologia.2015.10.005
+- title: Error-based training and emergent awareness in anosognosia for hemiplegia
+  authors: V. Moro, M. Scandola, C. Bulgarelli, R. Avesani, A. Fotopoulou
+  venue: Neuropsychological Rehabilitation
+  published: '2014-08-21'
+  publication_type: Journal article
+  topics:
+  - action
+  - neuropsychology
+  url: https://doi.org/10.1080/09602011.2014.951659
+  source_url: https://iris.univr.it/handle/11562/926028
+  date_source_url: https://pubmed.ncbi.nlm.nih.gov/25142215/
+  doi: 10.1080/09602011.2014.951659
+- title: 'Anosognosia for apraxia: Experimental evidence for defective awareness of one''s own bucco-facial
+    gestures.'
+  authors: L. Canzano, M. Scandola, S. Pernigo, S. Aglioti, V. Moro
+  venue: Cortex
+  published: '2014-06-16'
+  publication_type: Journal article
+  topics:
+  - action
+  - neuropsychology
+  url: https://doi.org/10.1016/j.cortex.2014.05.015
+  source_url: https://iris.univr.it/handle/11562/862364
+  date_source_url: https://pubmed.ncbi.nlm.nih.gov/25100505/
+  doi: 10.1016/j.cortex.2014.05.015
+- title: 'Rubber hand illusion induced by touching the face ipsilaterally to a deprived hand: evidence for
+    plastic "somatotopic" remapping in tetraplegics.'
+  authors: M. Scandola, E. Tidoni, R. Avesani, G. Brunelli, S. Aglioti, V. Moro
+  venue: Frontiers in Human Neuroscience
+  published: '2014-06-10'
+  publication_type: Journal article
+  topics:
+  - pain-body
+  - neuropsychology
+  url: https://doi.org/10.3389/fnhum.2014.00404
+  source_url: https://iris.univr.it/handle/11562/862366
+  date_source_url: https://pubmed.ncbi.nlm.nih.gov/24959128/
+  doi: 10.3389/fnhum.2014.00404
+- title: Alterations of the peripersonal space around the feet in paraplegics
+  authors: M. Scandola, B. Giovanni, A. Renato, B. Claudio, Aglioti Salvatore Maria, V. Moro
+  venue: CAOs 2014
+  published: '2014'
+  publication_type: Conference poster
+  topics:
+  - pain-body
+  - space
+  url: https://iris.univr.it/handle/11562/988192
+  source_url: https://iris.univr.it/handle/11562/988192
+  date_source_url: https://iris.univr.it/handle/11562/988192
+- title: La reinvenzione del quotidiano nelle persone con tetraplegia
+  authors: V. Moro, C. Dall'Ora, M. Scandola, L. Piasere
+  venue: AM
+  published: '2014'
+  publication_type: Journal article
+  topics:
+  - pain-body
+  - society
+  url: https://iris.univr.it/handle/11562/935389
+  source_url: https://iris.univr.it/handle/11562/935389
+  date_source_url: https://iris.univr.it/handle/11562/935389
+- title: Scrivere report statistici con R e Sweave
+  authors: M. Scandola, N. Baltieri
+  venue: ARS TEXNICA
+  published: '2014'
+  publication_type: Journal article
+  topics:
+  - methods
+  url: https://iris.univr.it/handle/11562/960247
+  source_url: https://iris.univr.it/handle/11562/960247
+  date_source_url: https://iris.univr.it/handle/11562/960247
+- title: 'Warmth-blindness: a tool to promote safe in-group selection'
+  authors: G. Ponsi, M. Scandola, Aglioti Salvatore Maria, Panasiti Maria Serena
+  venue: Rovereto Workshop on Cognition and Evolution (CogEvo) 2014
+  published: '2014'
+  publication_type: Conference poster
+  topics:
+  - society
+  url: https://iris.univr.it/handle/11562/1019685
+  source_url: https://iris.univr.it/handle/11562/1019685
+  date_source_url: https://iris.univr.it/handle/11562/1019685
+- title: Digital storytelling teaching robotics basics
+  authors: M. Scandola, P. Fiorini
+  venue: THEMES IN SCIENCE AND TECHNOLOGY EDUCATION
+  published: '2013'
+  publication_type: Journal article
+  topics:
+  - society
+  url: https://iris.univr.it/handle/11562/960253
+  source_url: https://iris.univr.it/handle/11562/960253
+  date_source_url: https://iris.univr.it/handle/11562/960253
+- title: Computer assisted training for robotic surgery
+  authors: A. Hernansanz, D. Zerbato, L. Gasperotti, M. Scandola, P. Fiorini, A. Casals
+  venue: CARS 2012
+  published: '2012'
+  publication_type: Conference contribution
+  topics:
+  - methods
+  - action
+  url: https://iris.univr.it/handle/11562/960252
+  source_url: https://iris.univr.it/handle/11562/960252
+  date_source_url: https://iris.univr.it/handle/11562/960252
+- title: Improving the development of surgical skills with virtual fixtures in simulation
+  authors: A. Hernansanz, D. Zerbato, L. Gasperotti, M. Scandola, P. Fiorini, A. Casals
+  venue: Lecture Notes in Computer Science
+  published: '2012'
+  publication_type: Book chapter
+  topics:
+  - methods
+  - action
+  url: https://doi.org/10.1007/978-3-642-30618-1_16
+  source_url: https://orcid.org/0000-0003-0853-8975
+  date_source_url: https://pub.orcid.org/v3.0/0000-0003-0853-8975/work/25531236
+  doi: 10.1007/978-3-642-30618-1_16
+- title: The role of visual-haptic discrepancy in virtual reality environments
+  authors: M. Scandola, L. Gasperotti, M. Vicentini, P. Fiorini
+  venue: 2012 IEEE Haptics Symposium (HAPTICS)
+  published: '2012'
+  publication_type: Conference contribution
+  topics:
+  - methods
+  url: https://doi.org/10.1109/haptic.2012.6183804
+  source_url: https://orcid.org/0000-0003-0853-8975
+  date_source_url: https://pub.orcid.org/v3.0/0000-0003-0853-8975/work/25531234
+  doi: 10.1109/haptic.2012.6183804
+- title: 'Robot-assisted laparoscopic hysterectomy vs traditional laparoscopic hysterectomy: five metaanalyses'
+  authors: M. Scandola, L. Grespan, M. Vicentini, P. Fiorini
+  venue: Journal of Minimally Invasive Gynecology
+  published: 2011-11
+  publication_type: Journal article
+  topics:
+  - methods
+  url: https://doi.org/10.1016/j.jmig.2011.08.008
+  source_url: https://iris.univr.it/handle/11562/931950
+  date_source_url: https://doi.org/10.1016/j.jmig.2011.08.008
+  doi: 10.1016/j.jmig.2011.08.008
+- title: How force perception changes in different refresh rate conditions
+  authors: M. Scandola, M. Vicentini, P. Fiorini
+  venue: 2011 15th International Conference on Advanced Robotics (ICAR)
+  published: 2011-06
+  publication_type: Conference contribution
+  topics:
+  - methods
+  url: https://doi.org/10.1109/icar.2011.6088597
+  source_url: https://iris.univr.it/handle/11562/1019684
+  date_source_url: https://doi.org/10.1109/icar.2011.6088597
+  doi: 10.1109/icar.2011.6088597
+- title: SAFROS - il progetto sulla sicurezza del paziente in chirurgia robotica
+  authors: P. Fiorini, A. Sanna, M. Scandola, A. Morandi
+  venue: E-HEALTH CARE
+  published: '2011'
+  publication_type: Journal article
+  topics:
+  - methods
+  url: https://iris.univr.it/handle/11562/960250
+  source_url: https://iris.univr.it/handle/11562/960250
+  date_source_url: https://iris.univr.it/handle/11562/960250
+- title: Fear of Cockroaches Questionnaire
+  authors: M. Scandola, A. Bastianelli, A. Spoto, G. Vidotto
+  venue: REVIEW OF PSYCHOLOGY
+  published: '2010'
+  publication_type: Journal article
+  topics:
+  - methods
+  url: https://iris.univr.it/handle/11562/960245
+  source_url: https://iris.univr.it/handle/11562/960245
+  date_source_url: https://iris.univr.it/handle/11562/960245

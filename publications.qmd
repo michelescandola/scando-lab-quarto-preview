@@ -1,18 +1,33 @@
 ---
 title: Publications
 pagetitle: "Publications · Scando-lab"
-description: "Selected publications on Bayesian methods, body cognition, pain and neuropsychology."
+description: "Publications on open science, methods, pain, body, action, space, society and neuropsychology, newest first."
 page-id: publications
-page-heading: "Evidence, organised by question."
+page-heading: "Publications, connected by topic."
 page-lead: >-
-  A curated route through publications connected to our current programmes.
-  Use the filters to explore methodological and body-related work.
+  Explore our research across six topics, from the most recent work to the
+  earliest. A publication can connect several topics; each filter keeps
+  the same newest-first order.
 listing:
   id: publications-list
   contents: content/publications.yml
   template: templates/publications.ejs.md
-  sort: order
-  field-required: [title, authors, year, label, category, url, order]
+  sort: title
+  field-required: [title, authors, venue, published, publication_type, topics, url, source_url]
+  template-params:
+    topics:
+      - id: methods
+        text: "Open Science, Statistics, and Methods"
+      - id: pain-body
+        text: "Pain and body representation"
+      - id: action
+        text: "Action representation"
+      - id: space
+        text: "Space representation"
+      - id: society
+        text: "Society"
+      - id: neuropsychology
+        text: "Neuropsychology"
 ---
 
 ::: {.shell}
@@ -21,10 +36,16 @@ listing:
 
 :::: {.publication-footer}
 
-This selection is not an exhaustive bibliography. The complete and continuously
-updated publication record is available on Google Scholar.
+Records were checked on **12 November 2026** against the
+[University of Verona repository](https://iris.univr.it/cris/rp/rp08237?type=all),
+[ORCID](https://orcid.org/0000-0003-0853-8975), and publisher and preprint records.
+Articles, conference contributions, chapters, software and preprints are labelled
+separately. Dates use first online publication where available; a month or year
+alone means no more precise publication date was verified. Within a year,
+year-only entries follow dated entries. This bibliography may differ from
+Google Scholar.
 
-[Full Scholar profile ↗](https://scholar.google.com/citations?hl=en&user=bZBU7HEAAAAJ&view_op=list_works&sortby=pubdate){.button .secondary target="_blank" rel="noopener noreferrer"}
+[Google Scholar profile ↗](https://scholar.google.com/citations?hl=en&user=bZBU7HEAAAAJ&view_op=list_works&sortby=pubdate){.button .secondary target="_blank" rel="noopener noreferrer"}
 
 ::::
 :::

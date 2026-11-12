@@ -49,7 +49,7 @@ Page prose is Markdown. Repeated content is kept in ordinary YAML lists under
 - `research.yml`: research themes.
 - `people.yml`: team profiles and portrait links.
 - `activities.yml`: announcements, talks, workshops and events.
-- `publications.yml`: publication metadata and filter categories.
+- `publications.yml`: publication metadata, dates, sources and research topics.
 - `resources.yml`: resource descriptions and links.
 
 Contributors can edit these files directly in GitHub and propose a pull
@@ -77,8 +77,12 @@ python3 scripts/check_site.py
 ```
 
 The shared navigation highlights the current page and collapses into a menu
-on small screens. Publication filters show all eight selected works or the
-four entries in either category. Motion preferences are respected.
+on small screens. Publications sort automatically from newest to oldest and
+can be filtered by six research topics. A work can belong to several topics
+without being duplicated in the complete list. Dates retain their verified
+precision, and publication types distinguish articles, preprints, conference
+contributions, chapters and software. See the provenance and contribution
+rules in [CONTRIBUTING.md](CONTRIBUTING.md). Motion preferences are respected.
 
 ## Repository and hosting
 

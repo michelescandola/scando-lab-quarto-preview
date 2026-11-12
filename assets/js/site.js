@@ -51,17 +51,20 @@
 
   buttons.forEach((button) => {
     button.addEventListener("click", () => {
-      const category = button.dataset.filter;
+      const topic = button.dataset.filter;
       let visibleCount = 0;
       buttons.forEach((candidate) => {
         candidate.setAttribute("aria-pressed", String(candidate === button));
       });
       publications.forEach((publication) => {
-        publication.hidden = category !== "all" && publication.dataset.category !== category;
+        // One record may belong to several topics; filtering never duplicates it.
+        const topics = publication.dataset.topics.split(" ");
+        publication.hidden = topic !== "all" && !topics.includes(topic);
         if (!publication.hidden) visibleCount += 1;
       });
       if (status) {
-        status.textContent = visibleCount + " publications shown: " + button.textContent.trim() + ".";
+        status.textContent = visibleCount + " publications · " +
+          (topic === "all" ? "All topics" : button.textContent.trim()) + " · Newest first";
       }
     });
   });
